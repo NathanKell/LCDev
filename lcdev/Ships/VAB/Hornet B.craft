@@ -2,7 +2,7 @@ ship = Hornet B
 version = 1.12.3
 description = 
 type = VAB
-size = 2.77761054,16.6878624,2.77761078
+size = 2.77761078,16.6878624,2.77761054
 steamPublishedFileId = 0
 persistentId = 806011409
 rot = 0,0,0,0
@@ -954,6 +954,7 @@ PART
 		}
 		Log
 		{
+			flight = 0
 		}
 		UPGRADESAPPLIED
 		{
@@ -989,7 +990,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 2
+	sidx = 1
 	sqor = 0
 	sepI = -1
 	attm = 0
@@ -1964,7 +1965,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 3
+	sidx = 2
 	sqor = 0
 	sepI = 0
 	attm = 0
@@ -2456,7 +2457,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 31427839.780825019
+		missionStartTime = 40305186.708904937
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -2867,7 +2868,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 31427839.780825019
+		missionStartTime = 40305186.708904937
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3025,11 +3026,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 3
-	sidx = 1
-	sqor = 0
+	sidx = 0
+	sqor = 1
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
@@ -3311,11 +3312,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 3
-	sidx = 1
-	sqor = 0
+	sidx = 0
+	sqor = 1
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
@@ -3963,21 +3964,21 @@ PART
 	part = ROE-Aerobee_4288355994
 	partName = Part
 	persistentId = 2422857077
-	pos = 0.189852014,13.100934,2.75121295E-07
-	attPos = 0,0,0
+	pos = 0.139687821,13.1012659,2.73349343E-07
+	attPos = -0.0609388649,0,0
 	attPos0 = 0.189850703,-0.547010422,-4.76896105E-08
-	rot = 1.68587405E-07,8.74227908E-08,8.74227908E-08,1
-	attRot = 0,0,0,1
-	attRot0 = -1.68587405E-07,-8.74227837E-08,-4.37114025E-08,-1
+	rot = -1.712E-07,-8.2188933E-08,-0.0307994839,-0.999525607
+	attRot = -2.13243043E-15,-5.20056334E-15,-0.0307993963,-0.999525607
+	attRot0 = 1.712E-07,8.21889259E-08,0.030799441,0.999525607
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 2
+	sqor = 3
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
@@ -4215,9 +4216,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 1640.6145
-		missionStartTime = 31427839.780825019
+		currentFlightData = 3472.81494
+		initialFlightData = 5113.42969
+		missionStartTime = 40305186.708904937
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4386,21 +4387,21 @@ PART
 	part = ROE-Aerobee_4288172910
 	partName = Part
 	persistentId = 2108851205
-	pos = -0.189849362,13.100934,3.87097799E-07
-	attPos = 0,0,0
+	pos = -0.139685199,13.1012659,3.84484252E-07
+	attPos = 0.0609388351,0,-5.32745048E-09
 	attPos0 = -0.189850673,-0.547010422,6.4286894E-08
-	rot = 7.10542736E-15,1,-1.6858742E-07,-1.31134158E-07
+	rot = -0.0307993963,-0.999525607,1.72546294E-07,1.25879566E-07
 	attRot = 0,0,0,1
 	attRot0 = -4.37113954E-08,-1,1.6858742E-07,1.31134172E-07
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 2
+	sqor = 3
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
@@ -4630,9 +4631,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 1640.6145
-		missionStartTime = 31427839.780825019
+		currentFlightData = 3472.81494
+		initialFlightData = 5113.42969
+		missionStartTime = 40305186.708904937
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4811,12 +4812,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 1
-	sepI = 1
+	sqor = 2
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 8.30353928
@@ -5028,12 +5029,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 5
 	sidx = 1
 	sqor = 3
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = -0.307278693
@@ -5316,12 +5317,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 5
 	sidx = 1
 	sqor = 3
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = -0.307278693
@@ -5604,12 +5605,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 342.084015
@@ -7026,6 +7027,7 @@ PART
 		}
 		Log
 		{
+			flight = 0
 		}
 		UPGRADESAPPLIED
 		{
@@ -7048,7 +7050,7 @@ PART
 	part = ROT-GenericTank-Separate_4291039382
 	partName = Part
 	persistentId = 4054670460
-	pos = 1.27249882E-06,8.0181675,3.22811076E-07
+	pos = 1.27249882E-06,8.0181675,3.22811104E-07
 	attPos = 0,0,0
 	attPos0 = 0,-4.35900021,0
 	rot = 0,0,0,1
@@ -7058,12 +7060,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 79.2366409
@@ -7402,19 +7404,19 @@ PART
 	pos = 1.27249859E-06,4.0181675,3.22811104E-07
 	attPos = 0,0,0
 	attPos0 = 0,-4,0
-	rot = -0.195090339,-7.99360578E-15,-0.98078531,2.48689958E-14
+	rot = -0.195090339,-9.76996262E-15,-0.98078531,2.84217094E-14
 	attRot = -0.195090294,0,-0.980785251,0
 	attRot0 = -0.195090309,0,-0.98078531,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0.86070776
@@ -7601,19 +7603,19 @@ PART
 	pos = -0.646714687,4.48036766,0.26787886
 	attPos = 0,0,0
 	attPos0 = 0.700000167,-0.462200165,-1.11758709E-08
-	rot = 0.195090398,7.99360578E-15,0.98078531,-2.84217094E-14
+	rot = 0.195090398,9.76996262E-15,0.98078531,-3.19744231E-14
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0,-0.195090309,0,-0.98078531
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 5
 	sidx = 1
 	sqor = 3
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0.702873945
@@ -7889,19 +7891,19 @@ PART
 	pos = 0.646717072,4.48036766,-0.267878324
 	attPos = 0,0,0
 	attPos0 = -0.700000226,-0.462200165,-4.47034836E-08
-	rot = 0.98078531,2.48689958E-14,-0.195090398,7.10542736E-15
+	rot = 0.98078531,2.84217094E-14,-0.195090398,1.0658141E-14
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0,-0.98078531,0,0.195090353
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 5
 	sidx = 1
 	sqor = 3
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0.702873945
@@ -8184,12 +8186,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 5
 	resPri = 0
 	dstg = 5
 	sidx = 0
-	sqor = 4
-	sepI = 1
+	sqor = 5
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -8518,9 +8520,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4470.90723
-		initialFlightData = 4470.90723
-		missionStartTime = 31427839.780825019
+		currentFlightData = 5948.50977
+		initialFlightData = 5948.50977
+		missionStartTime = 40305186.708904937
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8704,7 +8706,7 @@ PART
 	part = AM.MLP.RedstoneLaunchStand_4288362330
 	partName = Part
 	persistentId = 1205874422
-	pos = 1.26813006E-06,-0.489532471,3.22811445E-07
+	pos = 1.26813006E-06,-0.489532471,3.22811474E-07
 	attPos = 0,0,0
 	attPos0 = 0,-2.22780037,0
 	rot = 0,0,0,1
@@ -8714,12 +8716,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -9122,19 +9124,19 @@ PART
 	pos = -0.556930363,2.29235172,4.5133342E-07
 	attPos = 0.121441782,-2.49491405,0
 	attPos0 = -0.678373456,-3.23090172,4.04342018E-08
-	rot = -0.0413499214,0.999144733,6.79865479E-08,-1.51991844E-06
+	rot = -0.0413499177,0.999144733,6.89178705E-08,-1.51991844E-06
 	attRot = 1.76221859E-15,5.00287068E-14,0.0413499288,-0.999144733
 	attRot0 = -0.0413499288,0.999144733,6.27396943E-08,-1.51598886E-06
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -9407,12 +9409,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -9678,19 +9680,19 @@ PART
 	pos = 0.556932926,2.29235172,2.24090712E-07
 	attPos = -0.121441782,-2.49491405,1.06168159E-08
 	attPos0 = 0.678373456,-3.23090172,-9.97395091E-08
-	rot = 6.42360618E-08,-1.34110451E-06,0.0413499251,-0.999144852
+	rot = 6.23734167E-08,-1.29640102E-06,0.0413499214,-0.999144852
 	attRot = 1.76221859E-15,5.00287068E-14,0.0413499288,-0.999144733
 	attRot0 = 8.0885334E-19,1.56099793E-06,5.27102504E-13,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -9953,7 +9955,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4288983544
 	partName = Part
 	persistentId = 1538711299
-	pos = 1.41348289E-06,2.29235172,-0.556931257
+	pos = 1.42838405E-06,2.29235172,-0.556931257
 	attPos = 7.2384978E-09,-2.49491405,0.121441782
 	attPos0 = -8.08684106E-08,-3.23090172,-0.678373396
 	rot = 0.0292388648,-0.706503093,0.0292387791,-0.706500947
@@ -9963,12 +9965,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
