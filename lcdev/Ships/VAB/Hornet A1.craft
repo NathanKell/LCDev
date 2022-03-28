@@ -2,7 +2,7 @@ ship = Hornet A1
 version = 1.12.3
 description = 
 type = VAB
-size = 2.77761078,14.6895123,2.77761078
+size = 2.77761078,14.6895103,2.77761078
 steamPublishedFileId = 0
 persistentId = 806011409
 rot = 0,0,0,0
@@ -17,9 +17,9 @@ PART
 	part = proceduralAvionics_4291071396
 	partName = Part
 	persistentId = 2888234391
-	pos = 1.28149986E-06,12.7487392,4.61935997E-07
+	pos = 9.52700191E-07,14.2486696,-9.78685989E-07
 	attPos = 0,0,0
-	attPos0 = 1.28149986E-06,13.9987392,4.61935997E-07
+	attPos0 = 9.52700191E-07,14.2486696,-9.78685989E-07
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 342.084015
-	modMass = -0.563943267
+	modCost = 344.584015
+	modMass = -0.562783241
 	modSize = 0,0,0
 	link = ROT-GenericTank-Separate_4291039382
 	link = RO-RFTank-Seperate_4287930016
@@ -1971,8 +1971,8 @@ PART
 	{
 		name = ModuleRealAntenna
 		isEnabled = True
-		_enabled = False
-		TxPower = 30
+		_enabled = True
+		TxPower = 20
 		TechLevel = 0
 		AMWTemp = 0
 		antennaDiameter = 0
@@ -2047,7 +2047,7 @@ PART
 	part = ROT-GenericTank-Separate_4291039382
 	partName = Part
 	persistentId = 3617344698
-	pos = 1.28149986E-06,8.46173859,4.61935997E-07
+	pos = 9.52700191E-07,9.96166897,-9.78685989E-07
 	attPos = 0,0,0
 	attPos0 = 0,-4.35900021,0
 	rot = 0,0,0,1
@@ -2398,7 +2398,7 @@ PART
 	part = SSTUHollowRing.Boattail_4290297948
 	partName = Part
 	persistentId = 2804047244
-	pos = 1.28149986E-06,4.46173859,4.61935997E-07
+	pos = 9.52700191E-07,5.96166897,-9.78685989E-07
 	attPos = 0,0,0
 	attPos0 = 0,-4,0
 	rot = -0.195090309,0,-0.98078531,0
@@ -2597,7 +2597,7 @@ PART
 	part = KzProcFairingSide1.TU_4290145964
 	partName = Part
 	persistentId = 3472244774
-	pos = -0.646714568,4.92393875,0.26787895
+	pos = -0.646714926,6.42386913,0.267877489
 	attPos = 0,0,0
 	attPos0 = 0.700000167,-0.462200165,-1.11758709E-08
 	rot = 0.195090309,0,0.98078531,0
@@ -2885,7 +2885,7 @@ PART
 	part = KzProcFairingSide1.TU_4289060208
 	partName = Part
 	persistentId = 2325853942
-	pos = 0.646717191,4.92393875,-0.267878056
+	pos = 0.646716893,6.42386913,-0.267879516
 	attPos = 0,0,0
 	attPos0 = -0.700000226,-0.462200165,-4.47034836E-08
 	rot = 0.98078531,0,-0.195090368,0
@@ -3173,7 +3173,7 @@ PART
 	part = ROE-A4_4290361890
 	partName = Part
 	persistentId = 2910873704
-	pos = 1.28149986E-06,2.18183899,4.61935997E-07
+	pos = 9.52700191E-07,3.68176937,-9.78685989E-07
 	attPos = 0,0,0
 	attPos0 = 0,2.2798996,0
 	rot = 0,0,0,1
@@ -3517,9 +3517,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4470.90723
-		initialFlightData = 4470.90723
-		missionStartTime = 31427839.780825019
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 65369812.595577307
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3703,7 +3703,7 @@ PART
 	part = AM.MLP.RedstoneLaunchStand_4288362330
 	partName = Part
 	persistentId = 4161006258
-	pos = 1.28149986E-06,-0.04596138,4.61935997E-07
+	pos = 9.52700191E-07,1.453969,-9.78685989E-07
 	attPos = 0,0,0
 	attPos0 = 0,-2.22780037,0
 	rot = 0,0,0,1
@@ -3767,8 +3767,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.942905128
-		height = 0.759038925
+		scaleFactor = 2.80617189
+		height = 2.25896931
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -4117,8 +4117,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4289001090
 	partName = Part
-	persistentId = 617868343
-	pos = -0.556930423,2.73592281,5.02370199E-07
+	persistentId = 4194124571
+	pos = -0.55693078,4.2358532,-9.38251787E-07
 	attPos = 0.121441782,-2.49491405,0
 	attPos0 = -0.678373456,-3.23090172,4.04342018E-08
 	rot = -0.0413499288,0.999144733,6.27396943E-08,-1.51598886E-06
@@ -4396,7 +4396,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4288983816
 	partName = Part
 	persistentId = 2718877552
-	pos = 1.2887383E-06,2.73592281,0.556932092
+	pos = 9.59938689E-07,4.2358532,0.556930661
 	attPos = 7.23849425E-09,-2.49491405,-0.121441782
 	attPos0 = -9.32587341E-15,-3.23090172,0.678373396
 	rot = -0.0292387698,0.706500947,0.0292388592,-0.706503093
@@ -4673,8 +4673,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4288983680
 	partName = Part
-	persistentId = 1035860397
-	pos = 0.556932926,2.73592281,3.72813304E-07
+	persistentId = 2433154579
+	pos = 0.556932569,4.2358532,-1.06780863E-06
 	attPos = -0.121441782,-2.49491405,1.06168159E-08
 	attPos0 = 0.678373456,-3.23090172,-9.97395091E-08
 	rot = 6.45471587E-08,-1.55966291E-06,0.0413499288,-0.999144733
@@ -4951,8 +4951,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4288983544
 	partName = Part
-	persistentId = 3426011362
-	pos = 1.2078699E-06,2.73592281,-0.556931138
+	persistentId = 3644099324
+	pos = 8.79070228E-07,4.2358532,-0.556932569
 	attPos = 7.2384978E-09,-2.49491405,0.121441782
 	attPos0 = -8.08684106E-08,-3.23090172,-0.678373396
 	rot = 0.0292388592,-0.706503093,0.0292387698,-0.706500947
@@ -5230,7 +5230,7 @@ PART
 	part = RO-RFTank-Seperate_4287930016
 	partName = Part
 	persistentId = 1375411842
-	pos = 1.28149986E-06,14.5343561,4.61935997E-07
+	pos = 9.52700191E-07,16.0342865,-9.78685989E-07
 	attPos = 0,-0.00715923309,0
 	attPos0 = 0,1.79277611,0
 	rot = 0,0,0,1
@@ -5248,7 +5248,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 55.4505692
+	modCost = 13.4505606
 	modMass = -0.586363435
 	modSize = 0,0,0
 	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
@@ -5563,8 +5563,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 413.63659999999999
-			maxAmount = 413.63659999999999
+			amount = 260
+			maxAmount = 260
 		}
 		UPGRADESAPPLIED
 		{
@@ -5574,7 +5574,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 42.0000076
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5604,8 +5604,8 @@ PART
 	RESOURCE
 	{
 		name = SoundingPayload
-		amount = 413.63659999999999
-		maxAmount = 413.63659999999999
+		amount = 260
+		maxAmount = 260
 		flowState = True
 		isTweakable = True
 		hideFlow = False
