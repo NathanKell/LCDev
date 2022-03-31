@@ -4,7 +4,7 @@ description =
 type = VAB
 size = 3.23712754,20.4778214,3.23712778
 steamPublishedFileId = 0
-persistentId = 4185367613
+persistentId = 3356101756
 rot = 0,0,0,0
 missionFlag = Squad/Flags/satellite
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = RP0probeSounding0-3m_4290122670
 	partName = Part
-	persistentId = 2259706618
+	persistentId = 2548721975
 	pos = 1.45881013E-05,21.8502026,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 1.45881013E-05,21.8667011,-2.40336758E-05
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 2.15811396
-	modMass = 0.00105059647
+	modCost = 7
+	modMass = 0.00260000001
 	modSize = 0,0,0
 	link = sensorBarometer_4290072768
 	link = sensorThermometer_4290072392
@@ -904,7 +904,7 @@ PART
 		name = ModuleRealAntenna
 		isEnabled = True
 		_enabled = True
-		TxPower = 15
+		TxPower = 30
 		TechLevel = 0
 		AMWTemp = 0
 		antennaDiameter = 0
@@ -978,7 +978,7 @@ PART
 {
 	part = sensorBarometer_4290072768
 	partName = Part
-	persistentId = 3514770083
+	persistentId = 1306179221
 	pos = 1.45881013E-05,21.9454269,-2.40336758E-05
 	attPos = 0.0684470162,0.0194349289,-4.07976053E-09
 	attPos0 = -0.0684470162,0.0757884979,4.07976053E-09
@@ -1151,7 +1151,7 @@ PART
 {
 	part = sensorThermometer_4290072392
 	partName = Part
-	persistentId = 3271605798
+	persistentId = 569321057
 	pos = 1.45881013E-05,22.0193596,-2.40336758E-05
 	attPos = -0.0731694549,0.0933685303,-4.36123981E-09
 	attPos0 = 0.0731694549,0.0757884979,4.36123981E-09
@@ -1324,7 +1324,7 @@ PART
 {
 	part = ROT-GenericTank-Separate_4290119206
 	partName = Part
-	persistentId = 2749233599
+	persistentId = 1295171591
 	pos = 1.45881013E-05,19.5563011,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 0,-2.29390025,0
@@ -1676,7 +1676,7 @@ PART
 {
 	part = ROE-Aerobee_4290096606
 	partName = Part
-	persistentId = 3543528208
+	persistentId = 23524832
 	pos = 1.45881013E-05,17.264637,-2.40336758E-05
 	attPos = 0,0.0818378925,0
 	attPos0 = 0,-2.37350059,0
@@ -1928,9 +1928,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1398.11304
-		initialFlightData = 3398.11304
-		missionStartTime = 81180703.690919489
+		currentFlightData = 5287.66016
+		initialFlightData = 7287.66016
+		missionStartTime = 89682977.003905565
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -2098,7 +2098,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4290045080
 	partName = Part
-	persistentId = 2295189308
+	persistentId = 2848153689
 	pos = 1.46030025E-05,17.3356552,-0.14744103
 	attPos = 0,0,0
 	attPos0 = 1.49011612E-08,-2.2206459,-0.147416994
@@ -2375,7 +2375,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4290024312
 	partName = Part
-	persistentId = 3187760312
+	persistentId = 1646913164
 	pos = -0.127652273,17.3356552,0.0736844689
 	attPos = 0,0,0
 	attPos0 = -0.127666861,-2.2206459,0.0737085044
@@ -2652,7 +2652,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4290024170
 	partName = Part
-	persistentId = 3010330873
+	persistentId = 3804896164
 	pos = 0.127681464,17.3356552,0.0736844689
 	attPos = 0,0,0
 	attPos0 = 0.127666876,-2.2206459,0.0737085044
@@ -2929,7 +2929,7 @@ PART
 {
 	part = conformaldecals-text_4289993298
 	partName = Part
-	persistentId = 376154793
+	persistentId = 426242214
 	pos = 1.46551565E-05,20.5937576,-0.246644959
 	attPos = 0,0,0
 	attPos0 = 6.70552254E-08,1.03745651,-0.246620923
@@ -3056,7 +3056,7 @@ PART
 {
 	part = conformaldecals-text_4289985906
 	partName = Part
-	persistentId = 1448200521
+	persistentId = 2065604899
 	pos = 1.45433978E-05,20.5937576,0.246596888
 	attPos = 0,0,0
 	attPos0 = -4.47034836E-08,1.03745651,0.246620923
@@ -3183,7 +3183,7 @@ PART
 {
 	part = proceduralNoseCone_4290061114
 	partName = Part
-	persistentId = 206149094
+	persistentId = 2477437384
 	pos = 1.45881013E-05,22.5456028,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 0,0.695400238,0
@@ -5441,7 +5441,7 @@ PART
 	pos = 1.4584376E-05,14.0716763,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = -3.55271368E-15,-0.292776108,2.66453526E-15
-	rot = -1.3390495E-16,0,-2.00116815E-16,1
+	rot = -1.3390495E-16,0,-2.00116801E-16,1
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.195090145,0,-0.98078531
 	mir = 1,1,1
@@ -6896,7 +6896,7 @@ PART
 	pos = 1.4584376E-05,9.78467655,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 0,-4.35900021,0
-	rot = -1.3390495E-16,0,-2.00116815E-16,1
+	rot = -1.3390495E-16,0,-2.00116801E-16,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -7443,7 +7443,7 @@ PART
 	part = KzProcFairingSide1.TU_4290145964
 	partName = Part
 	persistentId = 2788785040
-	pos = -0.646701276,6.24687672,0.267854512
+	pos = -0.646701276,6.24687767,0.267854512
 	attPos = 0,0,0
 	attPos0 = 0.700000167,-0.462200165,-1.11758709E-08
 	rot = 0.195090398,4.10244179E-14,0.98078531,-1.05399027E-13
@@ -7731,7 +7731,7 @@ PART
 	part = KzProcFairingSide1.TU_4289060208
 	partName = Part
 	persistentId = 1674540432
-	pos = 0.646730602,6.24687672,-0.267902642
+	pos = 0.646730602,6.24687767,-0.267902642
 	attPos = 0,0,0
 	attPos0 = -0.700000226,-0.462200165,-4.47034836E-08
 	rot = 0.98078531,1.05399054E-13,-0.195090398,4.10244348E-14
@@ -8022,7 +8022,7 @@ PART
 	pos = 1.45953045E-05,3.504776,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 0,2.2798996,0
-	rot = -1.3390495E-16,0,-2.00117662E-16,1
+	rot = -1.3390495E-16,0,-2.00117648E-16,1
 	attRot = 0,0,0,1
 	attRot0 = 0.195090309,0,0.98078531,0
 	mir = 1,1,1
@@ -8365,7 +8365,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 81180703.690919489
+		missionStartTime = 89682977.003905565
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8548,11 +8548,11 @@ PART
 {
 	part = AM.MLP.RedstoneLaunchStand_4288362330
 	partName = Part
-	persistentId = 3487835326
+	persistentId = 740715944
 	pos = 1.45953027E-05,1.27697563,-2.40336758E-05
 	attPos = 0,0,0
 	attPos0 = 0,-2.22780037,0
-	rot = -1.3390495E-16,0,-2.00117662E-16,1
+	rot = -1.3390495E-16,0,-2.00117648E-16,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -10904,9 +10904,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1398.11304
-		initialFlightData = 3398.11304
-		missionStartTime = 81180703.690919489
+		currentFlightData = 5287.66016
+		initialFlightData = 7287.66016
+		missionStartTime = 89682977.003905565
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11319,9 +11319,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1398.11304
-		initialFlightData = 3398.11304
-		missionStartTime = 81180703.690919489
+		currentFlightData = 5287.66016
+		initialFlightData = 7287.66016
+		missionStartTime = 89682977.003905565
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11489,7 +11489,7 @@ PART
 {
 	part = RO-IonMassSpectrometer_4291665054
 	partName = Part
-	persistentId = 1972925784
+	persistentId = 739071188
 	pos = 1.45881013E-05,22.8143654,-2.40336758E-05
 	attPos = -5.41513145E-09,0.00908279419,0.0619379357
 	attPos0 = 5.41513145E-09,0.259679794,-0.0619379357
