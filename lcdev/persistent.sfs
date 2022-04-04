@@ -526,7 +526,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 369982.28529322275
+		funds = 419982.28529322275
 	}
 	SCENARIO
 	{
@@ -25607,12 +25607,12 @@ GAME
 			SciPoints = 132.448883
 			IsSimulation = False
 			DisableFailuresInSim = True
-			Researchers = 300
+			Researchers = 150
 			UnassignedPersonnel = 0
 			EfficiencyResearchers = 0.80535799490569837
 			EfficiencyEngineers = 1
 			LastEngineers = 45
-			LastResearchers = 300
+			LastResearchers = 150
 		}
 		KSC
 		{
