@@ -14299,7 +14299,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModulePatchableEngineConfigs
+		name = ModuleEngineConfigs
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False

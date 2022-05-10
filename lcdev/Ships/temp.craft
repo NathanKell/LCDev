@@ -10136,7 +10136,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModulePatchableEngineConfigs
+		name = ModuleEngineConfigs
 		isEnabled = True
 		configuration = LR87-AJ-3
 		configurationDisplay = LR87-AJ-3
