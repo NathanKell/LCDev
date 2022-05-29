@@ -36,7 +36,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 88.3899994
-	modMass = 0.0280600004
+	modMass = 0.0200600009
 	modSize = 0,0,0
 	link = ROC-ReentryControlSystemBDB_4292804516
 	link = ROC-GeminiHSBDB_4292623710
@@ -120,7 +120,7 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
-		mass = 1.16578376
+		mass = 1.25780749
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		volume = 525
@@ -1134,8 +1134,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1167,305 +1167,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = True
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1530,6 +1233,270 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
+		expState = Running
+		status = Waiting
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
 		expState = Stopped
 		status = Stopped
 		stagingEnabled = True
@@ -1563,8 +1530,41 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = True
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1588,8 +1588,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = #3Orbital Maneuvering-Visual Acuity;Star Occultation Navigation
-		prev_cfg = #3Orbital Maneuvering-Visual Acuity;Star Occultation Navigation
+		cfg = #3Orbital Maneuvering-Visual Acuity5Power Tool Evaluation
+		prev_cfg = #3Orbital Maneuvering-Visual Acuity5Power Tool Evaluation
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5281,7 +5281,7 @@ PART
 	MODULE
 	{
 		name = ProcessController
-		isEnabled = False
+		isEnabled = True
 		running = True
 		valve_i = 0
 		stagingEnabled = True
@@ -5345,8 +5345,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = "6O2 Pressure Controller4LOX to GOX Converter
-		prev_cfg = "6O2 Pressure Controller4LOX to GOX Converter
+		cfg = #6O2 Pressure Controller4LOX to GOX Converter)Fuel Cell
+		prev_cfg = #6O2 Pressure Controller4LOX to GOX Converter)Fuel Cell
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5602,6 +5602,17 @@ PART
 		name = _PressureControlOxygen
 		amount = 2
 		maxAmount = 2
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = _FuelCell
+		amount = 2.2000000000000002
+		maxAmount = 2.2000000000000002
 		flowState = True
 		isTweakable = False
 		hideFlow = False
@@ -7611,7 +7622,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10326,7 +10337,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10754,7 +10765,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11634,7 +11645,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12762,7 +12773,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4292155972
 	partName = Part
 	persistentId = 3680037094
-	pos = 1.19732376E-05,14.6077499,-4.03499222
+	pos = 1.19732376E-05,14.6077499,-4.03499174
 	attPos = -0.390360832,2.48538208,-2.38418579E-07
 	attPos0 = -1.20964789,11.3907509,0
 	rot = -3.74339364E-23,0.707106829,3.74339175E-23,0.707106829
@@ -13237,7 +13248,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4292015924
 	partName = Part
 	persistentId = 2579351213
-	pos = 1.19732376E-05,26.6043835,-4.03499031
+	pos = 1.19732376E-05,26.6043835,-4.03498983
 	attPos = -0.390362859,8.44451714,-2.38418579E-07
 	attPos0 = -1.20964777,5.03125,6.5629153E-22
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -13513,7 +13524,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4292015750
 	partName = Part
 	persistentId = 2119820123
-	pos = 1.19732376E-05,19.6784821,-4.03499269
+	pos = 1.19732376E-05,19.6784821,-4.03499222
 	attPos = 0.0867347717,2.5248661,-1.1920929E-07
 	attPos0 = -1.68674302,4.02499962,-1.1920929E-07
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -13988,7 +13999,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4292152358
 	partName = Part
 	persistentId = 1219482571
-	pos = 1.19732376E-05,23.1406116,-4.03499031
+	pos = 1.19732376E-05,23.1406116,-4.03498983
 	attPos = -0.390362859,-1.05675507,-2.38418579E-07
 	attPos0 = -1.20964777,5.03125,6.5629153E-22
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -14264,7 +14275,7 @@ PART
 	part = AM.MLP.LaunchStandSmallUmbilical_4292104266
 	partName = Part
 	persistentId = 3181621249
-	pos = 1.20924469E-05,28.2979908,-4.02874708
+	pos = 1.20924469E-05,28.2979908,-4.0287466
 	attPos = -1.09672546E-05,7.11937428,0
 	attPos0 = -1.6062429,2.01249981,-1.1920929E-07
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -15535,7 +15546,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15965,7 +15976,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16395,7 +16406,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16825,7 +16836,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 407144809.9919647
+		missionStartTime = 419676531.8905549
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
