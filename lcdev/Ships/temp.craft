@@ -1,8 +1,8 @@
-ship = Gemini A
+ship = Gemini B
 version = 1.12.3
 description = 
 type = VAB
-size = 3.27878475,35.7260399,3.38232493
+size = 3.27411485,35.839489,3.38232493
 steamPublishedFileId = 0
 persistentId = 345256321
 rot = 0,0,0,0
@@ -17,7 +17,7 @@ PART
 	part = ROC-GeminiCMBDB_4292954032
 	partName = Part
 	persistentId = 2877449465
-	pos = 1.19732376E-05,29.576807,-4.85222381E-06
+	pos = 1.19732376E-05,29.5778122,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 1.19732376E-05,29.576807,-4.85222381E-06
 	rot = 0,0,0,1
@@ -36,7 +36,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 88.3899994
-	modMass = 0.0200600009
+	modMass = 0.0280600004
 	modSize = 0,0,0
 	link = ROC-ReentryControlSystemBDB_4292804516
 	link = ROC-GeminiHSBDB_4292623710
@@ -120,7 +120,7 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
-		mass = 1.25780749
+		mass = 1.16578376
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		volume = 525
@@ -155,8 +155,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
-			amount = 82
-			maxAmount = 82
+			amount = 164
+			maxAmount = 164
 		}
 		TANK
 		{
@@ -1125,7 +1125,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = True
+		isEnabled = False
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1134,8 +1134,41 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Waiting
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1257,7 +1290,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = False
+		isEnabled = True
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1266,41 +1299,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1588,8 +1588,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = #3Orbital Maneuvering-Visual Acuity5Power Tool Evaluation
-		prev_cfg = #3Orbital Maneuvering-Visual Acuity5Power Tool Evaluation
+		cfg = #;Star Occultation Navigation:Simple Organism Egg GrowtheSynergistic Effect of Zero Gravity and Radiation on White Blood Cells
+		prev_cfg = #;Star Occultation Navigation:Simple Organism Egg GrowtheSynergistic Effect of Zero Gravity and Radiation on White Blood Cells
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1813,8 +1813,8 @@ PART
 	RESOURCE
 	{
 		name = Food
-		amount = 82
-		maxAmount = 82
+		amount = 164
+		maxAmount = 164
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -1926,7 +1926,7 @@ PART
 	part = ROC-ReentryControlSystemBDB_4292804516
 	partName = Part
 	persistentId = 413747900
-	pos = 1.19732376E-05,30.7537441,-4.85222381E-06
+	pos = 1.19732376E-05,30.7547493,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,1.1769371,0
 	rot = 0,0,0,1
@@ -1939,7 +1939,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 0
-	sidx = 2
+	sidx = 1
 	sqor = 3
 	sepI = -1
 	attm = 0
@@ -2209,7 +2209,7 @@ PART
 	part = ROC-GeminiParachuteBDB_4292802410
 	partName = Part
 	persistentId = 1155113652
-	pos = 1.19732376E-05,30.995573,-4.85222381E-06
+	pos = 1.19732376E-05,30.9965782,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,0.241828918,0
 	rot = 0,0,0,1
@@ -2230,9 +2230,9 @@ PART
 	modCost = 102.900002
 	modMass = -1.86264515E-09
 	modSize = 0,0,0
-	link = ROC-GeminiNoseconeAeroBDB_4292798784
+	link = ROC-GeminiNoseconeBDB_4289727974
 	attN = bottom,ROC-ReentryControlSystemBDB_4292804516_0|-0.0447781682|0_0|-1.52400005|0_0|-0.0447781682|0_0|-1.52400005|0
-	attN = top,ROC-GeminiNoseconeAeroBDB_4292798784_0|0.0421279334|0_0|1.52400005|0_0|0.0421279334|0_0|1.52400005|0
+	attN = top,ROC-GeminiNoseconeBDB_4289727974_0|0.0421279334|0_0|1.52400005|0_0|0.0421279334|0_0|1.52400005|0
 	EVENTS
 	{
 	}
@@ -2496,362 +2496,10 @@ PART
 }
 PART
 {
-	part = ROC-GeminiNoseconeAeroBDB_4292798784
-	partName = Part
-	persistentId = 2258301124
-	pos = 1.19732376E-05,31.3755894,-4.85222381E-06
-	attPos = 0,0,0
-	attPos0 = 0,0.380016327,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = ROC-GeminiParachuteDrogueBDB_4292799672
-	link = ROC-MercuryLESBDB_4292527420
-	attN = bottom,ROC-GeminiParachuteBDB_4292802410_0|-0.337886035|0_0|-1.52400005|0_0|-0.337886035|0_0|-1.52400005|0
-	attN = top,ROC-MercuryLESBDB_4292527420_0|0.645261645|0_0|1.52400005|0_0|0.645261645|0_0|1.52400005|0
-	attN = parachute,ROC-GeminiParachuteDrogueBDB_4292799672_0.0973744541|0.415203094|-0.173027188_0|1.00000012|-1.1920929E-07_0.0973744541|0.415203094|-0.173027188_0|1.00000012|-1.1920929E-07
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = meshSwitchPaint
-		currentSubtype = White
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = ROC-GeminiParachuteDrogueBDB_4292799672
-	partName = Part
-	persistentId = 1919818648
-	pos = 0.0973864272,31.7907925,-0.173032016
-	attPos = 0,0,0
-	attPos0 = 0.0973744541,0.415203094,-0.173027158
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = 0
-	sqor = 1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 5.69999981
-	modMass = -1.39698386E-09
-	modSize = 0,0,0
-	attN = parachute,ROC-GeminiNoseconeAeroBDB_4292798784_-2.97797408E-15|0|-3.40640547E-08_0|-1.00000012|-1.1920929E-07_-2.97797408E-15|0|-3.40640547E-08_0|-1.00000012|-1.1920929E-07
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = RealChuteModule
-		isEnabled = True
-		caseMass = 0.0320000015
-		cutSpeed = 12
-		timer = 0
-		mustGoDown = False
-		deployOnGround = False
-		spareChutes = 1
-		initiated = True
-		wait = True
-		armed = False
-		oneWasDeployed = False
-		staged = False
-		launched = False
-		chuteCount = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionDeploy
-			{
-				actionGroup = Custom05
-			}
-			ActionCut
-			{
-				actionGroup = None
-			}
-			ActionArm
-			{
-				actionGroup = None
-				active = False
-			}
-			ActionDisarm
-			{
-				actionGroup = None
-			}
-		}
-		PARACHUTE
-		{
-			material = Nylon
-			preDeployedDiameter = 2
-			deployedDiameter = 6
-			minIsPressure = False
-			capOff = False
-			minDeployment = 15000
-			minPressure = 0.00100000005
-			deploymentAlt = 6400
-			cutAlt = 3300
-			preDeploymentSpeed = 2
-			deploymentSpeed = 4
-			time = 0
-			parachuteName = canopy
-			baseParachuteName = canopy
-			capName = Cap
-			preDeploymentAnimation = semi_deploy
-			deploymentAnimation = full_deploy
-			forcedOrientation = 0
-			maxRotation = 90
-			depState = STOWED
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDragModifier
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDragModifier
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = ROC-GeminiHSBDB_4292623710
 	partName = Part
 	persistentId = 2681351950
-	pos = 1.19732376E-05,28.6639004,-4.85222381E-06
+	pos = 1.19732376E-05,28.6649055,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.912906647,0
 	rot = 0,0,0,1
@@ -3047,7 +2695,7 @@ PART
 	part = ROC-RetrogradeDecouplerBDB_4292613870
 	partName = Part
 	persistentId = 3260666580
-	pos = 1.19732376E-05,28.7564182,-4.85222381E-06
+	pos = 1.19732376E-05,28.7574234,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,0.0925178528,0
 	rot = 0,0,0,1
@@ -3060,7 +2708,7 @@ PART
 	istg = 1
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 1
 	sepI = 1
 	attm = 0
@@ -3207,7 +2855,7 @@ PART
 	part = ROC-GeminiRetrogradeSectionBDB_4292622626
 	partName = Part
 	persistentId = 629173366
-	pos = 1.19732376E-05,28.3262634,-4.85222381E-06
+	pos = 1.19732376E-05,28.3272686,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.4301548,0
 	rot = 0,0,0,1
@@ -3220,7 +2868,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 2
-	sidx = 3
+	sidx = 2
 	sqor = 3
 	sepI = 1
 	attm = 0
@@ -3465,7 +3113,7 @@ PART
 	part = ROC-GeminiRetroBDB_4292620094
 	partName = Part
 	persistentId = 3055073190
-	pos = -0.216780156,28.3542366,-0.21679695
+	pos = -0.216780156,28.3552418,-0.21679695
 	attPos = 0,0,0
 	attPos0 = -0.216792136,0.027973175,-0.216792092
 	rot = 0.0922961682,-2.16052563E-08,-0.0922959596,0.991444886
@@ -3764,7 +3412,7 @@ PART
 	part = ROC-GeminiRetroBDB_4292619468
 	partName = Part
 	persistentId = 3835455405
-	pos = -0.216780111,28.3542366,0.216787279
+	pos = -0.216780111,28.3552418,0.216787279
 	attPos = 0,0,0
 	attPos0 = -0.216792092,0.027973175,0.216792136
 	rot = 1.47513973E-07,0.701057374,-0.130526349,0.701057434
@@ -4055,7 +3703,7 @@ PART
 	part = ROC-GeminiRetroBDB_4292619384
 	partName = Part
 	persistentId = 167224920
-	pos = 0.216804117,28.3542366,0.216787234
+	pos = 0.216804117,28.3552418,0.216787234
 	attPos = 0,0,0
 	attPos0 = 0.216792136,0.027973175,0.216792092
 	rot = -0.092295967,0.991444886,-0.0922961608,-2.17321769E-08
@@ -4346,7 +3994,7 @@ PART
 	part = ROC-GeminiRetroBDB_4292619300
 	partName = Part
 	persistentId = 245564611
-	pos = 0.216804072,28.3542366,-0.216796994
+	pos = 0.216804072,28.3552418,-0.216796994
 	attPos = 0,0,0
 	attPos0 = 0.216792092,0.027973175,-0.216792136
 	rot = -0.130526349,0.701057434,-1.47513973E-07,-0.701057374
@@ -4634,318 +4282,10 @@ PART
 }
 PART
 {
-	part = ROC-MercuryLESBDB_4292527420
-	partName = Part
-	persistentId = 2734294811
-	pos = 1.19732376E-05,33.4072571,-4.85222381E-06
-	attPos = 0,0.4348526,0
-	attPos0 = 0,1.59681702,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 4
-	resPri = 0
-	dstg = 4
-	sidx = 0
-	sqor = 4
-	sepI = 4
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,ROC-GeminiNoseconeAeroBDB_4292798784_0|-0.951553404|0_0|-1.51199996|0_0|-0.951553404|0_0|-1.51199996|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesRF
-		isEnabled = True
-		autoCutoff = True
-		ignited = False
-		ignitions = -1
-		partSeed = -1
-		calculatedResiduals = 0.0080000000000000002
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = Abort, Custom05
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-		}
-		Ullage
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleFuelTanks
-		isEnabled = True
-		type = PSPC
-		utilization = 86
-		mass = 0.467900008
-		_numberOfAddedMLILayers = 0
-		stagingEnabled = True
-		volume = 64.450000000000003
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		TANK
-		{
-			name = PSPC
-			note = 
-			utilization = 1
-			mass = 0
-			cost = 0.00249999994
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 64.450000000000003
-			maxAmount = 64.450000000000003
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = Custom05
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = EngineGroupModule
-		isEnabled = True
-		EngineGroupId = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTagList
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = PSPC
-		amount = 64.450000000000003
-		maxAmount = 64.450000000000003
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
 	part = ROC-GeminiEquipmentSectionBDB_4292615688
 	partName = Part
 	persistentId = 3419926073
-	pos = 1.19732376E-05,26.8715897,-4.85222381E-06
+	pos = 1.19732376E-05,26.8725948,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,-1.45467377,0
 	rot = 0,0,0,1
@@ -4958,7 +4298,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 3
-	sidx = 4
+	sidx = 3
 	sqor = 3
 	sepI = 3
 	attm = 0
@@ -5077,8 +4417,22 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 20
-			maxAmount = 20
+			amount = 365
+			maxAmount = 365
+		}
+		TANK
+		{
+			name = LqdHydrogen
+			note = (has insulation, pressurized)
+			utilization = 1
+			mass = 1.34000002E-05
+			cost = 0.0149999997
+			loss_rate = 0
+			temperature = 20.1499996
+			fillable = True
+			techRequired = materialsScienceSatellite
+			amount = 850
+			maxAmount = 850
 		}
 		TANK
 		{
@@ -5147,8 +4501,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 47
-			maxAmount = 47
+			amount = 101
+			maxAmount = 101
 		}
 		TANK
 		{
@@ -5175,8 +4529,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1402048
-			maxAmount = 1402048
+			amount = 762048
+			maxAmount = 762048
 		}
 		UPGRADESAPPLIED
 		{
@@ -5501,8 +4855,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 20
-		maxAmount = 20
+		amount = 365
+		maxAmount = 365
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -5556,8 +4910,8 @@ PART
 	RESOURCE
 	{
 		name = Water
-		amount = 47
-		maxAmount = 47
+		amount = 101
+		maxAmount = 101
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -5578,8 +4932,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 1402048
-		maxAmount = 1402048
+		amount = 762048
+		maxAmount = 762048
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -5619,13 +4973,24 @@ PART
 		isVisible = False
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = LqdHydrogen
+		amount = 850
+		maxAmount = 850
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = ROC-GeminiOAMSBDB_4292595820
 	partName = Part
 	persistentId = 845596032
-	pos = 1.18667849E-05,26.8145771,-1.21768093
+	pos = 1.18667849E-05,26.8155823,-1.21768093
 	attPos = 0,0,0
 	attPos0 = -1.06452717E-07,-0.057012558,-1.21767604
 	rot = 0,0,0,1
@@ -5879,7 +5244,7 @@ PART
 	part = ROC-GeminiOAMSBDB_4292572912
 	partName = Part
 	persistentId = 3001810565
-	pos = -1.21766412,26.8145771,-4.74577109E-06
+	pos = -1.21766412,26.8155823,-4.74577109E-06
 	attPos = 0,0,0
 	attPos0 = -1.21767604,-0.057012558,1.06452717E-07
 	rot = 0,0.707106829,0,0.707106829
@@ -6125,7 +5490,7 @@ PART
 	part = ROC-GeminiOAMSBDB_4292572830
 	partName = Part
 	persistentId = 3497097834
-	pos = 1.20796722E-05,26.8145771,1.21746218
+	pos = 1.20796722E-05,26.8155823,1.21746218
 	attPos = 0,0,0
 	attPos0 = 1.06434527E-07,-0.057012558,1.21746707
 	rot = 0,1,0,-4.37113883E-08
@@ -6371,7 +5736,7 @@ PART
 	part = ROC-GeminiOAMSBDB_4292572748
 	partName = Part
 	persistentId = 3937898843
-	pos = 1.21768796,26.8145771,-4.95867653E-06
+	pos = 1.21768796,26.8155823,-4.95867653E-06
 	attPos = 0,0,0
 	attPos0 = 1.21767604,-0.057012558,-1.06452717E-07
 	rot = 0,0.707106829,0,-0.707106829
@@ -6617,7 +5982,7 @@ PART
 	part = ROT-OpenInterstage_4292462862
 	partName = Part
 	persistentId = 2405489531
-	pos = 1.19732376E-05,26.1297054,-4.85222381E-06
+	pos = 1.19732376E-05,26.1307106,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.741876006,0
 	rot = 0,0,0,1
@@ -6630,7 +5995,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 4
-	sidx = 5
+	sidx = 4
 	sqor = 3
 	sepI = 3
 	attm = 0
@@ -6865,7 +6230,7 @@ PART
 	persistentId = 3450457407
 	pos = 1.19732376E-05,24.2792072,-4.85222381E-06
 	attPos = 0,0,0
-	attPos0 = 0,-1.85048354,0
+	attPos0 = 0,-1.85148346,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -6881,18 +6246,16 @@ PART
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
-	modCost = 288.82962
-	modMass = -0.108508646
+	modCost = 288.972321
+	modMass = -0.108053327
 	modSize = 0,0,0
 	link = ROE-LR91_4292490608
 	link = SSTUHollowRing.Interstage_4292489910
 	link = proceduralAvionics_4292482110
-	link = sepMotorSmall_4292481940
-	link = sepMotorSmall_4292481858
-	attN = top,proceduralAvionics_4292482110_0|2.15104008|0_0|1|0_0|2.15104008|0_0|1|0
-	attN = bottom,ROE-LR91_4292490608_0|-2.15104008|0_0|-1|0_0|-2.15104008|0_0|-1|0
-	attN = noseinterstage,ROT-OpenInterstage_4292462862_0|1.45000005|0_0|1|0_0|1.45000005|0_0|1|0
-	attN = mountinterstage,SSTUHollowRing.Interstage_4292489910_0|-1.45000005|0_0|-1|0_0|-1.45000005|0_0|-1|0
+	attN = top,proceduralAvionics_4292482110_0|2.15204|0_0|1|0_0|2.15204|0_0|1|0
+	attN = bottom,ROE-LR91_4292490608_0|-2.15204024|0_0|-1|0_0|-2.15204024|0_0|-1|0
+	attN = noseinterstage,ROT-OpenInterstage_4292462862_0|1.45099998|0_0|1|0_0|1.45099998|0_0|1|0
+	attN = mountinterstage,SSTUHollowRing.Interstage_4292489910_0|-1.45100021|0_0|-1|0_0|-1.45100021|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -6919,9 +6282,9 @@ PART
 		name = ModuleROTank
 		isEnabled = True
 		currentDiameter = 3.0480001
-		currentLength = 2.9000001
-		currentVScale = -0.048556447
-		totalTankLength = 4.30208015
+		currentLength = 2.90200019
+		currentVScale = -0.0479002595
+		totalTankLength = 4.30408001
 		largestDiameter = 3.0480001
 		currentNoseRotation = 0
 		currentMountRotation = 0
@@ -7090,10 +6453,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al
 		utilization = 95
-		mass = 0.891491354
+		mass = 0.891946673
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 27144.7693
+		volume = 27158.633399999999
 		EVENTS
 		{
 		}
@@ -7111,8 +6474,8 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 16074.025750329665
-			maxAmount = 16074.025750329665
+			amount = 16082.235505142538
+			maxAmount = 16082.235505142538
 		}
 		TANK
 		{
@@ -7125,8 +6488,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 11070.743549670324
-			maxAmount = 11070.743549670324
+			amount = 11076.39789485744
+			maxAmount = 11076.39789485744
 		}
 		UPGRADESAPPLIED
 		{
@@ -7166,8 +6529,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 16074.025750329665
-		maxAmount = 16074.025750329665
+		amount = 16082.235505142538
+		maxAmount = 16082.235505142538
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7177,8 +6540,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 11070.743549670324
-		maxAmount = 11070.743549670324
+		amount = 11076.39789485744
+		maxAmount = 11076.39789485744
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7191,9 +6554,9 @@ PART
 	part = ROE-LR91_4292490608
 	partName = Part
 	persistentId = 1138928880
-	pos = 1.19732376E-05,21.156189,-4.85222381E-06
+	pos = 1.19732376E-05,21.1551857,-4.85222381E-06
 	attPos = 0,0,0
-	attPos0 = 4.23516474E-22,-3.12302518,-1.27054942E-21
+	attPos0 = 4.23516474E-22,-3.12402534,-1.27054942E-21
 	rot = 0,0,-2.64697764E-23,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-2.64697764E-23,1
@@ -7209,8 +6572,8 @@ PART
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
-	modCost = 100
-	modMass = -0.0399999619
+	modCost = 200
+	modMass = 0
 	modSize = 0,0,0
 	attN = top,ROT-GenericTank-Integral_4292490814_0|0.971984029|0_0|1.60000002|0_0|0.971984029|0_0|1.60000002|0
 	attN = bottom,Null_0_0|-1.46671999|0_0|-1.60000002|0_0|-1.46671999|0_0|-1.60000002|0
@@ -7490,8 +6853,8 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = LR91-AJ-5-Kero
-		configurationDisplay = LR91-AJ-5-Kero
+		configuration = LR91-AJ-7-Kero
+		configurationDisplay = LR91-AJ-7-Kero
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -7588,7 +6951,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = kerolox
+		currentSubtype = hypergolic-aerozine50
 		EVENTS
 		{
 		}
@@ -7620,9 +6983,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		currentFlightData = 0
+		initialFlightData = 2000
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7806,9 +7169,9 @@ PART
 	part = SSTUHollowRing.Interstage_4292489910
 	partName = Part
 	persistentId = 46788906
-	pos = 1.19732376E-05,19.4292107,-4.85222381E-06
+	pos = 1.19732376E-05,19.4282074,-4.85222381E-06
 	attPos = 0,0,0
-	attPos0 = 0,-6.45000458,-1.69406589E-21
+	attPos0 = 0,-6.45100498,-1.69406589E-21
 	rot = 0,0,-2.64697764E-23,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-2.64697764E-23,1
@@ -8023,7 +7386,7 @@ PART
 	part = KzProcFairingSide1.TU_4292489752
 	partName = Part
 	persistentId = 2023052629
-	pos = 1.52401197,19.011507,-4.85222381E-06
+	pos = 1.52401197,19.0105038,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 1.52400041,-0.417703629,-2.98023224E-08
 	rot = 0,0,-2.64697764E-23,1
@@ -8311,7 +7674,7 @@ PART
 	part = KzProcFairingSide1.TU_4292489692
 	partName = Part
 	persistentId = 1020192693
-	pos = -1.52398813,19.011507,-4.98545614E-06
+	pos = -1.52398813,19.0105038,-4.98545614E-06
 	attPos = 0,0,0
 	attPos0 = -1.52400041,-0.417703629,-1.78813934E-07
 	rot = 2.64697764E-23,1,-1.15703072E-30,4.37113954E-08
@@ -8599,9 +7962,9 @@ PART
 	part = proceduralAvionics_4292482110
 	partName = Part
 	persistentId = 259377853
-	pos = 1.19732376E-05,26.1209869,-4.85222381E-06
+	pos = 1.19732376E-05,26.1219902,-4.85222381E-06
 	attPos = 0,-0.703200102,0
-	attPos0 = 0,2.544981,0
+	attPos0 = 0,2.54598093,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -10054,866 +9417,10 @@ PART
 }
 PART
 {
-	part = sepMotorSmall_4292481940
-	partName = Part
-	persistentId = 3924360780
-	pos = -1.48259115,25.6830177,-4.76385549E-06
-	attPos = 0,0,0
-	attPos0 = -1.48260307,1.4038105,8.83683242E-08
-	rot = -0.707105696,-6.21197023E-14,0.707107842,-6.21195193E-14
-	attRot = 0,0,0.99999994,0
-	attRot0 = -0.707105696,-6.21197023E-14,0.707107842,-6.21195193E-14
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 3
-	resPri = 0
-	dstg = 4
-	sidx = 1
-	sqor = 3
-	sepI = 3
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sepMotorSmall_4292481858
-	srfN = srfAttach,ROT-GenericTank-Integral_4292490814,SC-TANK-C-2-0-Collider,0|0|0,0|0|0.5,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesRF
-		isEnabled = True
-		autoCutoff = True
-		ignited = False
-		ignitions = -1
-		partSeed = -1
-		calculatedResiduals = 0.035000000000000003
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		Ullage
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateThrottle
-		isEnabled = True
-		animState = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRestockDepthMask
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleFuelTanks
-		isEnabled = True
-		type = PSPC
-		utilization = 86
-		mass = 0.00800000038
-		_numberOfAddedMLILayers = 0
-		stagingEnabled = True
-		volume = 5.085
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		TANK
-		{
-			name = PSPC
-			note = 
-			utilization = 1
-			mass = 0
-			cost = 0.00249999994
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 5.085
-			maxAmount = 5.085
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleEngineConfigs
-		isEnabled = True
-		activePatchName = 
-		dynamicPatchApplied = False
-		configuration = SolidFuel
-		configurationDisplay = SolidFuel
-		techLevel = -1
-		thrustRating = maxThrust
-		modded = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTagList
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightInterop
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightCore
-		isEnabled = True
-		operatingTime = 0
-		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
-		activeConfig = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FlightDataRecorder_Engine
-		isEnabled = True
-		lastRecordedMet = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightReliability
-		isEnabled = True
-		lastCheck = 0
-		lastReliability = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightReliability_EngineCycle
-		isEnabled = True
-		engineOperatingTime = 0
-		currentRunTime = 0
-		previousOperatingTime = 0
-		lastCheck = 0
-		lastReliability = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_EnginePerformanceLoss
-		isEnabled = True
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_IgnitionFail
-		isEnabled = True
-		numIgnitions = 0
-		previousTime = 0
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_Explode
-		isEnabled = True
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = PSPC
-		amount = 5.085
-		maxAmount = 5.085
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = sepMotorSmall_4292481858
-	partName = Part
-	persistentId = 2207039138
-	pos = 1.48261499,25.6830177,-5.07020604E-06
-	attPos = 0,0,0
-	attPos0 = 1.48260307,1.4038105,-2.17982233E-07
-	rot = 0.707107902,-6.21195193E-14,0.707105637,6.21197023E-14
-	attRot = 0,0,0.99999994,0
-	attRot0 = 0.707107902,-6.21195193E-14,0.707105637,6.21197023E-14
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 3
-	resPri = 0
-	dstg = 4
-	sidx = 1
-	sqor = 3
-	sepI = 3
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sepMotorSmall_4292481940
-	srfN = srfAttach,ROT-GenericTank-Integral_4292490814,SC-TANK-C-2-0-Collider,0|0|0,0|0|0.5,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesRF
-		isEnabled = True
-		autoCutoff = True
-		ignited = False
-		ignitions = -1
-		partSeed = -1
-		calculatedResiduals = 0.035000000000000003
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		Ullage
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateThrottle
-		isEnabled = True
-		animState = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRestockDepthMask
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleFuelTanks
-		isEnabled = True
-		type = PSPC
-		utilization = 86
-		mass = 0.00800000038
-		_numberOfAddedMLILayers = 0
-		stagingEnabled = True
-		volume = 5.085
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		TANK
-		{
-			name = PSPC
-			note = 
-			utilization = 1
-			mass = 0
-			cost = 0.00249999994
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 5.085
-			maxAmount = 5.085
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleEngineConfigs
-		isEnabled = True
-		activePatchName = 
-		dynamicPatchApplied = False
-		configuration = SolidFuel
-		configurationDisplay = SolidFuel
-		techLevel = -1
-		thrustRating = maxThrust
-		modded = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTagList
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightInterop
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightCore
-		isEnabled = True
-		operatingTime = 0
-		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
-		activeConfig = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FlightDataRecorder_Engine
-		isEnabled = True
-		lastRecordedMet = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightReliability
-		isEnabled = True
-		lastCheck = 0
-		lastReliability = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightReliability_EngineCycle
-		isEnabled = True
-		engineOperatingTime = 0
-		currentRunTime = 0
-		previousOperatingTime = 0
-		lastCheck = 0
-		lastReliability = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_EnginePerformanceLoss
-		isEnabled = True
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_IgnitionFail
-		isEnabled = True
-		numIgnitions = 0
-		previousTime = 0
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TestFlightFailure_Explode
-		isEnabled = True
-		failed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = PSPC
-		amount = 5.085
-		maxAmount = 5.085
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
 	part = ROT-GenericTank-Integral_4290118776
 	partName = Part
 	persistentId = 3191088953
-	pos = 1.19732376E-05,12.1187134,-4.85222381E-06
+	pos = 1.19732376E-05,12.1177101,-4.85222381E-06
 	attPos = 0,0,0
 	attPos0 = 3.65282888E-22,-7.31049967,0
 	rot = 0,0,0,1
@@ -11243,7 +9750,7 @@ PART
 	part = ROE-LR87_4289229016
 	partName = Part
 	persistentId = 2312972280
-	pos = 1.19732376E-05,3.18950462,-4.85222381E-06
+	pos = 1.19732376E-05,3.18850136,-4.85222381E-06
 	attPos = 1.8750477E-14,-0.128881454,-5.90847494E-15
 	attPos0 = 6.86096623E-20,-8.92921638,2.66465384E-15
 	rot = 7.88860623E-31,-2.98023153E-08,-2.64697701E-23,1
@@ -11261,8 +9768,8 @@ PART
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
-	modCost = 260
-	modMass = -0.167800069
+	modCost = 500
+	modMass = -0.134239912
 	modSize = 0,0,0
 	link = AM.MLP.TitanIILaunchStand_4286267276
 	attN = top,ROT-GenericTank-Integral_4290118776_0|1.61872005|0_0|1.60000002|0_0|1.61872005|0_0|1.60000002|0
@@ -11559,8 +10066,8 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = LR87-AJ-5-Kero
-		configurationDisplay = LR87-AJ-5-Kero
+		configuration = LR87-AJ-7-Kero
+		configurationDisplay = LR87-AJ-7-Kero
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -11611,7 +10118,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = kerolox
+		currentSubtype = hypergolic-aerozine50
 		EVENTS
 		{
 		}
@@ -11643,9 +10150,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		currentFlightData = 0
+		initialFlightData = 2000
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11828,8 +10335,8 @@ PART
 {
 	part = AM.MLP.TitanIILaunchStand_4286267276
 	partName = Part
-	persistentId = 3019163118
-	pos = 1.19732376E-05,0.731616974,-4.85222381E-06
+	persistentId = 651838369
+	pos = 1.19732376E-05,0.730613708,-4.85222381E-06
 	attPos = 2.43509371E-23,-0.229988098,-7.25714477E-31
 	attPos0 = 2.3588799E-22,-2.22789955,-7.03000917E-30
 	rot = 0,0,2.64697764E-23,1
@@ -11889,8 +10396,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 10.0884495
-		height = 0.812116623
+		scaleFactor = 10.0759859
+		height = 0.811113358
 		stagingEnabled = True
 		towerRot = 0,0,-2.64697764E-23,1
 		EVENTS
@@ -12333,8 +10840,8 @@ PART
 {
 	part = AM.MLP.GeneralCrewElevatorMini_4292178418
 	partName = Part
-	persistentId = 171615209
-	pos = 1.19732376E-05,0.731616974,-5.635005
+	persistentId = 2034568344
+	pos = 1.19732376E-05,0.730613708,-5.635005
 	attPos = 0,0,0
 	attPos0 = 0,1.77809165E-29,-5.63500023
 	rot = -3.74339238E-23,0.707106829,3.74339175E-23,0.707106829
@@ -12772,8 +11279,8 @@ PART
 {
 	part = AM.MLP.SmallTowerSwingArm_4292155972
 	partName = Part
-	persistentId = 3680037094
-	pos = 1.19732376E-05,14.6077499,-4.03499174
+	persistentId = 2155433919
+	pos = 1.19732376E-05,14.6067467,-4.03498888
 	attPos = -0.390360832,2.48538208,-2.38418579E-07
 	attPos0 = -1.20964789,11.3907509,0
 	rot = -3.74339364E-23,0.707106829,3.74339175E-23,0.707106829
@@ -13048,8 +11555,8 @@ PART
 {
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292016212
 	partName = Part
-	persistentId = 441831128
-	pos = 1.19732376E-05,13.1286163,-5.635005
+	persistentId = 2602497717
+	pos = 1.19732376E-05,13.1276131,-5.635005
 	attPos = 0,0,0
 	attPos0 = -9.77950814E-29,12.3969994,6.56291782E-22
 	rot = 1.87169635E-23,-0.707106829,-1.87169572E-23,-0.707106829
@@ -13247,8 +11754,8 @@ PART
 {
 	part = AM.MLP.SmallTowerSwingArm_4292015924
 	partName = Part
-	persistentId = 2579351213
-	pos = 1.19732376E-05,26.6043835,-4.03498983
+	persistentId = 3452431785
+	pos = 1.19732376E-05,26.6033802,-4.03498697
 	attPos = -0.390362859,8.44451714,-2.38418579E-07
 	attPos0 = -1.20964777,5.03125,6.5629153E-22
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -13523,8 +12030,8 @@ PART
 {
 	part = AM.MLP.SmallTowerSwingArm_4292015750
 	partName = Part
-	persistentId = 2119820123
-	pos = 1.19732376E-05,19.6784821,-4.03499222
+	persistentId = 180898976
+	pos = 1.19732376E-05,19.6774788,-4.03498936
 	attPos = 0.0867347717,2.5248661,-1.1920929E-07
 	attPos0 = -1.68674302,4.02499962,-1.1920929E-07
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -13799,8 +12306,8 @@ PART
 {
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292169562
 	partName = Part
-	persistentId = 6366924
-	pos = 1.19732376E-05,19.1661167,-5.635005
+	persistentId = 1840294681
+	pos = 1.19732376E-05,19.1651134,-5.635005
 	attPos = 0,0,0
 	attPos0 = -9.52549904E-30,6.03750038,0
 	rot = 1.87169635E-23,-0.707106829,-1.87169572E-23,-0.707106829
@@ -13998,8 +12505,8 @@ PART
 {
 	part = AM.MLP.SmallTowerSwingArm_4292152358
 	partName = Part
-	persistentId = 1219482571
-	pos = 1.19732376E-05,23.1406116,-4.03498983
+	persistentId = 2379289989
+	pos = 1.19732376E-05,23.1396084,-4.03498697
 	attPos = -0.390362859,-1.05675507,-2.38418579E-07
 	attPos0 = -1.20964777,5.03125,6.5629153E-22
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -14274,8 +12781,8 @@ PART
 {
 	part = AM.MLP.LaunchStandSmallUmbilical_4292104266
 	partName = Part
-	persistentId = 3181621249
-	pos = 1.20924469E-05,28.2979908,-4.0287466
+	persistentId = 1063401006
+	pos = 1.20924469E-05,28.2969875,-4.02874374
 	attPos = -1.09672546E-05,7.11937428,0
 	attPos0 = -1.6062429,2.01249981,-1.1920929E-07
 	rot = -1.87169761E-23,0.707106829,1.87169635E-23,0.707106829
@@ -14574,8 +13081,8 @@ PART
 {
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292132562
 	partName = Part
-	persistentId = 332308234
-	pos = 1.19732376E-05,25.2036171,-5.635005
+	persistentId = 325643177
+	pos = 1.19732376E-05,25.2026138,-5.635005
 	attPos = 0,0,0
 	attPos0 = -1.90509725E-29,12.0750008,1.00974154E-28
 	rot = 1.87169635E-23,-0.707106829,-1.87169572E-23,-0.707106829
@@ -14772,8 +13279,8 @@ PART
 {
 	part = AM.MLP.GeneralCrewElevatorMiniArmS_4292053058
 	partName = Part
-	persistentId = 434697937
-	pos = 1.19732376E-05,29.355032,-4.30729008
+	persistentId = 247681266
+	pos = 1.19732376E-05,29.3540287,-4.30729008
 	attPos = -8.34465027E-07,-1.2404747,1.42108547E-14
 	attPos0 = -1.3277142,5.39188957,-1.19209304E-07
 	rot = -1.87169635E-23,0.707106829,1.87169572E-23,0.707106829
@@ -15056,8 +13563,8 @@ PART
 {
 	part = AM.MLP.CrewElevatorSmallTop_4292024036
 	partName = Part
-	persistentId = 2594184376
-	pos = 1.19732376E-05,31.2411137,-5.635005
+	persistentId = 314565808
+	pos = 1.19732376E-05,31.2401104,-5.635005
 	attPos = 0,0,0
 	attPos0 = -9.52549904E-30,6.03750038,3.19622609E-22
 	rot = 0,0,2.64697796E-23,1.00000012
@@ -15264,7 +13771,7 @@ PART
 	part = sepMotorSmall_4289049696
 	partName = Part
 	persistentId = 1430099652
-	pos = 1.19732376E-05,4.87890053,1.48026359
+	pos = 1.19732376E-05,4.87789726,1.48026359
 	attPos = 0,0,0
 	attPos0 = 0,-7.23981285,1.48026848
 	rot = -8.283038E-30,1.78813906E-07,1,0
@@ -15546,7 +14053,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15694,7 +14201,7 @@ PART
 	part = sepMotorSmall_4284063772
 	partName = Part
 	persistentId = 1817122599
-	pos = 1.48028028,4.87890053,-4.76399191E-06
+	pos = 1.48028028,4.87789726,-4.76399191E-06
 	attPos = 0,0,0
 	attPos0 = 1.48026836,-7.23981285,8.82319E-08
 	rot = 0.707106829,1.2644054E-07,0.707106829,-1.2644054E-07
@@ -15976,7 +14483,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16124,7 +14631,7 @@ PART
 	part = sepMotorSmall_4284063684
 	partName = Part
 	persistentId = 511673515
-	pos = 1.18438293E-05,4.87890053,-1.48027337
+	pos = 1.18438293E-05,4.87789726,-1.48027337
 	attPos = 0,0,0
 	attPos0 = -1.29408363E-07,-7.23981285,-1.48026848
 	rot = 1,-7.81620404E-15,-4.37113883E-08,-1.78813906E-07
@@ -16406,7 +14913,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16554,7 +15061,7 @@ PART
 	part = sepMotorSmall_4284063596
 	partName = Part
 	persistentId = 523839432
-	pos = -1.48025644,4.87890053,-4.76399191E-06
+	pos = -1.48025644,4.87789726,-4.76399191E-06
 	attPos = 0,0,0
 	attPos0 = -1.48026836,-7.23981285,8.82319E-08
 	rot = 0.707106829,-1.2644054E-07,-0.707106829,-1.2644054E-07
@@ -16836,7 +15343,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 419676531.8905549
+		missionStartTime = 428119822.78483754
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16984,7 +15491,7 @@ PART
 	part = conformaldecals-text_4288596268
 	partName = Part
 	persistentId = 3494950035
-	pos = 1.19732376E-05,14.3847332,1.57374382
+	pos = 1.19732376E-05,14.3837299,1.57374382
 	attPos = -6.32375135E-23,1.19452286,0
 	attPos0 = 1.26217745E-29,2.26601982,1.57374871
 	rot = 0,1,-5.96046448E-08,0
@@ -17111,7 +15618,7 @@ PART
 	part = conformaldecals-text_4291559106
 	partName = Part
 	persistentId = 1109659020
-	pos = 1.18356566E-05,14.3847332,-1.5737536
+	pos = 1.18356566E-05,14.3837299,-1.5737536
 	attPos = -6.32375135E-23,1.19452286,0
 	attPos0 = -1.37581083E-07,2.26601982,-1.57374871
 	rot = -5.96046448E-08,-4.37113883E-08,2.60540177E-15,-1
@@ -17231,5 +15738,827 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
+	}
+}
+PART
+{
+	part = ROC-GeminiNoseconeBDB_4289727974
+	partName = Part
+	persistentId = 2807009159
+	pos = 1.19732376E-05,31.3765926,-4.85222381E-06
+	attPos = 0,0,0
+	attPos0 = 0,0.38001442,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = ROC-GeminiParachuteDrogueBDB_4292799672
+	link = ROC-MercuryLESBDB_4292527420
+	attN = bottom,ROC-GeminiParachuteBDB_4292802410_0|-0.337886035|0_0|-1.52400005|0_0|-0.337886035|0_0|-1.52400005|0
+	attN = top,ROC-MercuryLESBDB_4292527420_0|0.645261645|0_0|1.52400005|0_0|0.645261645|0_0|1.52400005|0
+	attN = parachute,ROC-GeminiParachuteDrogueBDB_4292799672_0.0973744541|0.415203094|-0.173027188_0|1.00000012|-1.1920929E-07_0.0973744541|0.415203094|-0.173027188_0|1.00000012|-1.1920929E-07
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		nodeIsLocked = True
+		targetAngle = 0
+		inverted = False
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleLockedAction
+			{
+				actionGroup = None
+			}
+			ServoEngageLockAction
+			{
+				actionGroup = None
+			}
+			ServoDisgageLockAction
+			{
+				actionGroup = None
+			}
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			targetAngle
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitchStyle
+		currentSubtype = Early
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = meshSwitchPaint
+		currentSubtype = White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDockingNodeNamed
+		isEnabled = True
+		portName = Gemini Nose Docking Mechanism
+		initialized = True
+		controlTransformName = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTagList
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ROC-GeminiParachuteDrogueBDB_4292799672
+	partName = Part
+	persistentId = 1919818648
+	pos = 0.0973864272,31.7917957,-0.173032016
+	attPos = 0,0,0
+	attPos0 = 0.0973744541,0.415203094,-0.173027158
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 2
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 5.69999981
+	modMass = -1.39698386E-09
+	modSize = 0,0,0
+	attN = parachute,ROC-GeminiNoseconeBDB_4289727974_-2.97797408E-15|0|-3.40640547E-08_0|-1.00000012|-1.1920929E-07_-2.97797408E-15|0|-3.40640547E-08_0|-1.00000012|-1.1920929E-07
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.0320000015
+		cutSpeed = 12
+		timer = 0
+		mustGoDown = False
+		deployOnGround = False
+		spareChutes = 1
+		initiated = True
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		chuteCount = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = Custom05
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+				active = False
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 2
+			deployedDiameter = 6
+			minIsPressure = False
+			capOff = False
+			minDeployment = 15000
+			minPressure = 0.00100000005
+			deploymentAlt = 6400
+			cutAlt = 3300
+			preDeploymentSpeed = 2
+			deploymentSpeed = 4
+			time = 0
+			parachuteName = canopy
+			baseParachuteName = canopy
+			capName = Cap
+			preDeploymentAnimation = semi_deploy
+			deploymentAnimation = full_deploy
+			forcedOrientation = 0
+			maxRotation = 90
+			depState = STOWED
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDragModifier
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDragModifier
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ROC-MercuryLESBDB_4292527420
+	partName = Part
+	persistentId = 2734294811
+	pos = 1.19732376E-05,33.5196991,-4.85222381E-06
+	attPos = 0,0.546291351,0
+	attPos0 = 0,1.59681702,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 4
+	resPri = 0
+	dstg = 4
+	sidx = 0
+	sqor = 4
+	sepI = 4
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,ROC-GeminiNoseconeBDB_4289727974_0|-0.951553404|0_0|-1.51199996|0_0|-0.951553404|0_0|-1.51199996|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesRF
+		isEnabled = True
+		autoCutoff = True
+		ignited = False
+		ignitions = -1
+		partSeed = -1
+		calculatedResiduals = 0.0080000000000000002
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = Abort, Custom05
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		Ullage
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = PSPC
+		utilization = 86
+		mass = 0.467900008
+		_numberOfAddedMLILayers = 0
+		stagingEnabled = True
+		volume = 64.450000000000003
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = PSPC
+			note = 
+			utilization = 1
+			mass = 0
+			cost = 0.00249999994
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 64.450000000000003
+			maxAmount = 64.450000000000003
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = Custom05
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTagList
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = PSPC
+		amount = 64.450000000000003
+		maxAmount = 64.450000000000003
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }
