@@ -2,7 +2,7 @@ ship = Gemini Circumlunar
 version = 1.12.3
 description = 
 type = VAB
-size = 13.6850033,51.1272812,23.3491135
+size = 13.6850033,51.1272812,23.3491154
 steamPublishedFileId = 0
 persistentId = 345256321
 rot = 0,0,0,0
@@ -120,10 +120,10 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
+		volume = 525
 		mass = 1.27380753
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 525
 		EVENTS
 		{
 		}
@@ -138,6 +138,11 @@ PART
 			mass = 2.99999992E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
@@ -152,6 +157,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
@@ -166,6 +176,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -180,6 +195,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = False
 			techRequired = 
@@ -194,6 +214,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = False
 			techRequired = 
@@ -208,6 +233,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -222,6 +252,11 @@ PART
 			mass = 0.00288999989
 			cost = 0
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -2008,10 +2043,10 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
+		volume = 34.299999999999997
 		mass = 0.133000001
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 34.299999999999997
 		EVENTS
 		{
 		}
@@ -2026,6 +2061,11 @@ PART
 			mass = 8.09999983E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -2040,6 +2080,11 @@ PART
 			mass = 8.09999983E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -2054,6 +2099,11 @@ PART
 			mass = 0.000115000003
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -2976,10 +3026,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 64.450000000000003
 		mass = 0.467900008
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 64.450000000000003
 		EVENTS
 		{
 		}
@@ -2994,6 +3044,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -3002,7 +3057,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -3883,10 +3937,10 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
+		volume = 2848
 		mass = 0.367000014
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 2848
 		EVENTS
 		{
 		}
@@ -3901,6 +3955,11 @@ PART
 			mass = 7.89999976E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.001
+			wallConduction = 11.4
+			insulationThickness = 0.050000000000000003
+			insulationConduction = 1.7E-05
+			isDewar = True
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
@@ -3915,6 +3974,11 @@ PART
 			mass = 1.34000002E-05
 			cost = 0.0149999997
 			loss_rate = 0
+			wallThickness = 0.001
+			wallConduction = 5.7999999999999998
+			insulationThickness = 0.050000000000000003
+			insulationConduction = 1.7E-05
+			isDewar = True
 			temperature = 20.1499996
 			fillable = True
 			techRequired = materialsScienceSatellite
@@ -3929,6 +3993,11 @@ PART
 			mass = 8.09999983E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -3943,6 +4012,11 @@ PART
 			mass = 8.09999983E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -3957,6 +4031,11 @@ PART
 			mass = 0.000115000003
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -3971,6 +4050,11 @@ PART
 			mass = 2.99999992E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
@@ -3985,6 +4069,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -3999,6 +4088,11 @@ PART
 			mass = 9.99999975E-06
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = False
 			techRequired = 
@@ -4013,6 +4107,11 @@ PART
 			mass = 0.00288999989
 			cost = 0
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -5734,7 +5833,7 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 958.489014
+	modCost = 957.750061
 	modMass = 0.0846168995
 	modSize = 0,0,0
 	link = ROE-RL10Fixed_4290808826
@@ -5944,10 +6043,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al
 		utilization = 95
+		volume = 46997.216200000003
 		mass = 1.0846169
 		_numberOfAddedMLILayers = 1
 		stagingEnabled = True
-		volume = 46997.216200000003
 		EVENTS
 		{
 		}
@@ -5962,6 +6061,11 @@ PART
 			mass = 1.6E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.0025000000000000001
+			wallConduction = 16
+			insulationThickness = 0.01
+			insulationConduction = 0.02
+			isDewar = False
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
@@ -5976,6 +6080,11 @@ PART
 			mass = 3.20000004E-06
 			cost = 0.0149999997
 			loss_rate = 0
+			wallThickness = 0.0025000000000000001
+			wallConduction = 205
+			insulationThickness = 0.038100000000000002
+			insulationConduction = 0.014
+			isDewar = False
 			temperature = 20.1499996
 			fillable = True
 			techRequired = materialsScienceSatellite
@@ -6484,9 +6593,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 6246.05811
-		initialFlightData = 6246.05811
-		missionStartTime = 439485303.2442466
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7100,9 +7209,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 6246.05811
-		initialFlightData = 6246.05811
-		missionStartTime = 439485303.2442466
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7603,10 +7712,10 @@ PART
 		isEnabled = True
 		type = SM-III
 		utilization = 60
+		volume = 100.53100000000001
 		mass = 0.0196620636
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 100.53100000000001
 		EVENTS
 		{
 		}
@@ -7621,6 +7730,11 @@ PART
 			mass = 0.00179999997
 			cost = 5
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -9856,7 +9970,7 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0.369763941
+	modCost = 0.357952297
 	modMass = -0.999584198
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4289177414
@@ -10153,10 +10267,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
+		volume = 3.8956
 		mass = 0.000415802846
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 3.8956
 		EVENTS
 		{
 		}
@@ -10171,6 +10285,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10185,6 +10304,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10199,6 +10323,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10298,7 +10427,7 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0.369763941
+	modCost = 0.357952297
 	modMass = -0.999584198
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4289177318
@@ -10595,10 +10724,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
+		volume = 3.8956
 		mass = 0.000415802846
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 3.8956
 		EVENTS
 		{
 		}
@@ -10613,6 +10742,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10627,6 +10761,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10641,6 +10780,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -10740,7 +10884,7 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0.369763941
+	modCost = 0.357952297
 	modMass = -0.999584198
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4288316120
@@ -11037,10 +11181,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
+		volume = 3.8956
 		mass = 0.000415802846
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 3.8956
 		EVENTS
 		{
 		}
@@ -11055,6 +11199,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -11069,6 +11218,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -11083,6 +11237,11 @@ PART
 			mass = 5.19999994E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -11975,7 +12134,7 @@ PART
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
-	modCost = 277.270538
+	modCost = 275.297943
 	modMass = -0.145388484
 	modSize = 0,0,0
 	link = ROE-LR91_4290714342
@@ -12184,10 +12343,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al
 		utilization = 95
+		volume = 26021.824799999999
 		mass = 0.854611516
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 26021.824799999999
 		EVENTS
 		{
 		}
@@ -12202,6 +12361,11 @@ PART
 			mass = 1.6E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.0025000000000000001
+			wallConduction = 16
+			insulationThickness = 0.01
+			insulationConduction = 0.02
+			isDewar = False
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
@@ -12216,6 +12380,11 @@ PART
 			mass = 1.6E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -12715,9 +12884,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1764.51599
-		initialFlightData = 3764.51611
-		missionStartTime = 439485303.2442466
+		currentFlightData = 6257.01221
+		initialFlightData = 8257.01172
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -13712,8 +13881,8 @@ PART
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
-	modCost = 7669.73535
-	modMass = -0.292058587
+	modCost = 1659.38635
+	modMass = -0.296310186
 	modSize = 0,0,0
 	attN = top,Null_0_0|0.461942673|0_0|1|0_0|0.461942673|0_0|1|0
 	attN = bottom,ROT-GenericTank-Integral_4286317494_0|-0.461942673|0_0|-1|0_0|-0.461942673|0_0|-1|0
@@ -14004,12 +14173,12 @@ PART
 	{
 		name = ModuleFuelTanks
 		isEnabled = True
-		type = SM-I
-		utilization = 50
-		mass = 0.00835656282
+		type = SM-III
+		utilization = 60
+		volume = 2.1991000000000001
+		mass = 0.00410498772
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 1.8326
 		EVENTS
 		{
 		}
@@ -14021,14 +14190,19 @@ PART
 			name = ElectricCharge
 			note = 
 			utilization = 1000
-			mass = 0.00449999981
-			cost = 12
+			mass = 0.00179999997
+			cost = 5
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1800.0000000000005
-			maxAmount = 1800.0000000000005
+			amount = 2199.0999999999999
+			maxAmount = 2199.0999999999999
 		}
 		UPGRADESAPPLIED
 		{
@@ -15139,8 +15313,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 1800.0000000000005
-		maxAmount = 1800.0000000000005
+		amount = 2199.0999999999999
+		maxAmount = 2199.0999999999999
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -15345,10 +15519,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -15363,6 +15537,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -15371,7 +15550,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -15434,7 +15612,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15774,10 +15952,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -15792,6 +15970,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -15800,7 +15983,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -15863,7 +16045,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16029,7 +16211,7 @@ PART
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
-	modCost = 1060.69434
+	modCost = 1052.97424
 	modMass = 2.34468603
 	modSize = 0,0,0
 	link = ROE-LR87_4288822474
@@ -16242,10 +16424,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al
 		utilization = 95
+		volume = 101841.40270000001
 		mass = 3.34468603
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 101841.40270000001
 		EVENTS
 		{
 		}
@@ -16260,6 +16442,11 @@ PART
 			mass = 1.6E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.0025000000000000001
+			wallConduction = 16
+			insulationThickness = 0.01
+			insulationConduction = 0.02
+			isDewar = False
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
@@ -16274,6 +16461,11 @@ PART
 			mass = 1.6E-05
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -16744,9 +16936,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2374.89307
-		initialFlightData = 4374.89307
-		missionStartTime = 439485303.2442466
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17124,10 +17316,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -17142,6 +17334,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -17150,7 +17347,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -17213,7 +17409,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17555,10 +17751,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -17573,6 +17769,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -17581,7 +17782,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -17644,7 +17844,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17986,10 +18186,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -18004,6 +18204,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -18012,7 +18217,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -18075,7 +18279,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -18417,10 +18621,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 5.085
 		mass = 0.00800000038
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 5.085
 		EVENTS
 		{
 		}
@@ -18435,6 +18639,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -18443,7 +18652,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -18506,7 +18714,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19118,7 +19326,7 @@ PART
 	part = ROE-UA1205_4289027950
 	partName = Part
 	persistentId = 799130647
-	pos = 3.21516919,15.8112926,0.000122146666
+	pos = 3.21516967,15.8112926,0.000122146666
 	attPos = 0,0,0
 	attPos0 = 3.12798875E-07,-5.6560998,-1.66089225
 	rot = 4.21465742E-08,0.707106829,4.21465742E-08,-0.707106829
@@ -19492,10 +19700,10 @@ PART
 		isEnabled = True
 		type = PBAN
 		utilization = 86
+		volume = 108606.12
 		mass = 33.7900009
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 108606.12
 		EVENTS
 		{
 		}
@@ -19510,6 +19718,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -19518,7 +19731,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -19596,7 +19808,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19759,7 +19971,7 @@ PART
 	part = ROE-1205sepMotor_4289021938
 	partName = Part
 	persistentId = 1320169804
-	pos = 3.21517158,31.8058338,0.000122146666
+	pos = 3.21517205,31.8058338,0.000122146666
 	attPos = 0,0,0
 	attPos0 = 4.48289939E-08,15.9945412,-4.78471975E-07
 	rot = 4.21465742E-08,0.707106829,4.21465742E-08,-0.707106829
@@ -19906,10 +20118,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 80
 		mass = 0.200000003
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 80
 		EVENTS
 		{
 		}
@@ -19924,6 +20136,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -19932,7 +20149,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -20322,7 +20538,7 @@ PART
 	part = ROE-UA1205_4288709896
 	partName = Part
 	persistentId = 2372354402
-	pos = -3.21517015,15.8112926,0.000121730038
+	pos = -3.21517062,15.8112926,0.000121730038
 	attPos = 0,0,0
 	attPos0 = 3.12798875E-07,-5.6560998,-1.66089225
 	rot = 4.21465671E-08,-0.707106888,-4.21465813E-08,-0.707106769
@@ -20688,10 +20904,10 @@ PART
 		isEnabled = True
 		type = PBAN
 		utilization = 86
+		volume = 108606.12
 		mass = 33.7900009
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 108606.12
 		EVENTS
 		{
 		}
@@ -20706,6 +20922,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -20714,7 +20935,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -20792,7 +21012,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 439485303.2442466
+		missionStartTime = 458315549.12031752
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20955,7 +21175,7 @@ PART
 	part = ROE-1205sepMotor_4288708560
 	partName = Part
 	persistentId = 2479623046
-	pos = -3.21517253,31.8058338,0.000121730038
+	pos = -3.21517301,31.8058338,0.000121730038
 	attPos = 0,0,0
 	attPos0 = 4.48289939E-08,15.9945412,-4.78471975E-07
 	rot = 4.21465671E-08,-0.707106888,-4.21465813E-08,-0.707106769
@@ -21094,10 +21314,10 @@ PART
 		isEnabled = True
 		type = PSPC
 		utilization = 86
+		volume = 80
 		mass = 0.200000003
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 80
 		EVENTS
 		{
 		}
@@ -21112,6 +21332,11 @@ PART
 			mass = 0
 			cost = 0.00249999994
 			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
 			temperature = 300
 			fillable = True
 			techRequired = 
@@ -21120,7 +21345,6 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
-			upgrade = MLI.Upgrade1
 		}
 	}
 	MODULE
@@ -21771,7 +21995,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLBase_4288171734
 	partName = Part
 	persistentId = 4036014967
-	pos = -2.08200208E-06,7.07685852,9.48303127
+	pos = -2.08200208E-06,7.07685852,9.48303318
 	attPos = 0,0,0
 	attPos0 = 9.48290157,-0.321998596,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -22014,7 +22238,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLBase_4288087762
 	partName = Part
 	persistentId = 401489154
-	pos = -2.08200208E-06,23.1768532,9.48303318
+	pos = -2.08200231E-06,23.1768532,9.48303509
 	attPos = 0,0,0
 	attPos0 = 1.90734863E-06,17.2269993,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -22258,7 +22482,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLSec1_4288098612
 	partName = Part
 	persistentId = 3921689278
-	pos = -2.08200231E-06,40.4038506,9.48303509
+	pos = -2.08200254E-06,40.4038506,9.48303699
 	attPos = 0,0,0
 	attPos0 = 1.90734886E-06,17.2269974,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -22472,7 +22696,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLSec1_4288076366
 	partName = Part
 	persistentId = 3736038556
-	pos = -2.08200254E-06,44.4288521,9.48303699
+	pos = -2.08200254E-06,44.4288521,9.4830389
 	attPos = 0,0,0
 	attPos0 = 1.90734931E-06,4.02500153,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -22686,7 +22910,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLSec1_4288131992
 	partName = Part
 	persistentId = 2299537113
-	pos = -2.08200254E-06,48.4538536,9.4830389
+	pos = -2.08200254E-06,48.4538536,9.48304081
 	attPos = 0,0,0
 	attPos0 = 1.90735E-06,4.02500153,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -22900,7 +23124,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerXLTop_4288106404
 	partName = Part
 	persistentId = 2231749160
-	pos = -2.08200254E-06,52.4788551,9.48304081
+	pos = -2.08200277E-06,52.4788551,9.48304272
 	attPos = 0,0,0
 	attPos0 = 1.90734977E-06,4.02500153,0
 	rot = 0,0.707106829,0,0.707106829
@@ -23090,7 +23314,7 @@ PART
 	part = AM.MLP.TitanIIITowerMast_4288127234
 	partName = Part
 	persistentId = 3173590387
-	pos = -1.35182108E-06,13.0338593,5.23262691
+	pos = -1.35182108E-06,13.0338593,5.23262787
 	attPos = 0,0,0
 	attPos0 = 5.23250103,5.63500404,0
 	rot = 0,-0.707106829,0,0.707106829
@@ -23285,7 +23509,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4288007884
 	partName = Part
 	persistentId = 2420157782
-	pos = -1.33766707E-06,44.4288521,4.99516153
+	pos = -1.33766707E-06,44.4288521,4.99516249
 	attPos = 0,0,0
 	attPos0 = -4.48787355,0,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -23569,7 +23793,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4287999090
 	partName = Part
 	persistentId = 7922434
-	pos = -1.33766696E-06,37.2660103,4.9951601
+	pos = -1.33766707E-06,37.2660103,4.99516106
 	attPos = 9.53674316E-07,-3.13784027,0
 	attPos0 = -4.48787355,0,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -23845,7 +24069,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4287994532
 	partName = Part
 	persistentId = 3962752587
-	pos = -1.3376673E-06,46.6772919,4.99516439
+	pos = -1.3376673E-06,46.6772919,4.99516535
 	attPos = 1.90734863E-06,-1.77656174,0
 	attPos0 = -4.48787355,0,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -24121,7 +24345,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4288000536
 	partName = Part
 	persistentId = 3791351361
-	pos = -1.33766684E-06,33.1537094,4.99515724
+	pos = -1.33766684E-06,33.1537094,4.9951582
 	attPos = 9.53674316E-07,-3.22514343,0
 	attPos0 = -4.48787355,13.2019997,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -24397,7 +24621,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4287985592
 	partName = Part
 	persistentId = 298913596
-	pos = -1.33766684E-06,30.474247,4.99515724
+	pos = -1.33766684E-06,30.474247,4.9951582
 	attPos = 9.53674316E-07,2.14539337,0
 	attPos0 = -4.48787355,5.15200043,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -24673,7 +24897,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4287982630
 	partName = Part
 	persistentId = 1761076176
-	pos = -1.33766662E-06,21.9855633,4.99515486
+	pos = -1.33766673E-06,21.9855633,4.99515581
 	attPos = 9.53674316E-07,5.73170853,0
 	attPos0 = -4.48787355,9.17700005,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -24949,7 +25173,7 @@ PART
 	part = AM.MLP.GeneralCrewElevatorMini_4292178418
 	partName = Part
 	persistentId = 2364220888
-	pos = 2.19230287E-06,7.65572357,-6.22790623
+	pos = 2.19230287E-06,7.65572357,-6.22790813
 	attPos = 5.84698439,-1.19213104,-1.43051147E-06
 	attPos0 = -12.0750036,1.4489975,0
 	rot = 0,0.707106829,0,0.707106829
@@ -25387,7 +25611,7 @@ PART
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292016212
 	partName = Part
 	persistentId = 3293661589
-	pos = 2.19230287E-06,20.0527191,-6.22790623
+	pos = 2.19230287E-06,20.0527191,-6.22790813
 	attPos = 0,0,0
 	attPos0 = -9.77950814E-29,12.3969994,6.56291782E-22
 	rot = -1.87169651E-23,-0.707106829,1.87169619E-23,-0.707106829
@@ -25584,7 +25808,7 @@ PART
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292169562
 	partName = Part
 	persistentId = 1435922607
-	pos = 2.19230287E-06,26.0902195,-6.22790623
+	pos = 2.19230287E-06,26.0902195,-6.22790813
 	attPos = 0,0,0
 	attPos0 = -9.52549904E-30,6.03750038,0
 	rot = -1.87169651E-23,-0.707106829,1.87169619E-23,-0.707106829
@@ -25782,7 +26006,7 @@ PART
 	part = AM.MLP.LaunchStandSmallUmbilical_4292104266
 	partName = Part
 	persistentId = 2671578858
-	pos = 1.61972491E-06,46.1529655,-4.62164211
+	pos = 1.61972514E-06,46.1529655,-4.62164307
 	attPos = -1.69277191E-05,18.0502472,1.1920929E-07
 	attPos0 = -1.6062429,2.01249981,-1.1920929E-07
 	rot = 1.8716954E-23,0.707106829,-1.87169572E-23,0.707106829
@@ -26082,7 +26306,7 @@ PART
 	part = AM.MLP.GeneralCrewElevatorMiniSec1_4292132562
 	partName = Part
 	persistentId = 4154496168
-	pos = 2.19230287E-06,44.2027206,-6.22790623
+	pos = 2.19230287E-06,44.2027206,-6.22790813
 	attPos = 0,0,0
 	attPos0 = -1.90509725E-29,12.0750008,1.00974154E-28
 	rot = -1.87169651E-23,-0.707106829,1.87169619E-23,-0.707106829
@@ -26280,7 +26504,7 @@ PART
 	part = AM.MLP.GeneralCrewElevatorMiniArmS_4292053058
 	partName = Part
 	persistentId = 3156674683
-	pos = 1.63632774E-06,46.6076202,-4.90018797
+	pos = 1.63632774E-06,46.6076202,-4.90018892
 	attPos = 2.38418579E-07,-2.98698997,1.19209304E-07
 	attPos0 = -1.3277142,5.39188957,-1.19209304E-07
 	rot = 1.87169651E-23,0.707106829,-1.87169619E-23,0.707106829
@@ -26564,7 +26788,7 @@ PART
 	part = AM.MLP.CrewElevatorSmallTop_4292024036
 	partName = Part
 	persistentId = 3722333765
-	pos = 2.19230287E-06,50.2402153,-6.22790623
+	pos = 2.19230287E-06,50.2402153,-6.22790813
 	attPos = 0,0,0
 	attPos0 = -9.52549904E-30,6.03750038,3.19622609E-22
 	rot = 9.46633086E-30,-2.98023188E-08,-2.64697859E-23,1.00000012
