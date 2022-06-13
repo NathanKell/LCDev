@@ -2,7 +2,7 @@ ship = Lunar Relay
 version = 1.12.3
 description = 
 type = VAB
-size = 4.18568754,48.0529327,10.9119844
+size = 4.18568707,48.0529327,10.9119835
 steamPublishedFileId = 0
 persistentId = 1238359150
 rot = 0,0,0,0
@@ -35,7 +35,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 5441.97217
+	modCost = 1631.79004
 	modMass = -0.841392696
 	modSize = 0,0,0
 	link = RCSBlockSmall.28_4292528190
@@ -4997,8 +4997,8 @@ PART
 	link = RO-2kN-Thruster_4291331810
 	link = HighGainAntenna_4291933182
 	link = HighGainAntenna_4291930006
-	attN = top,ROT-ProbeCore_4288667048_0|0.619000018|0_0|1|0_0|0.619000018|0_0|1|0
-	attN = bottom,RO-2kN-Thruster_4291331810_0|-0.619000018|0_0|-1|0_0|-0.619000018|0_0|-1|0
+	attN = top,ROT-ProbeCore_4288667048_0|0.670000017|0_0|1|0_0|0.670000017|0_0|1|0
+	attN = bottom,RO-2kN-Thruster_4291331810_0|-0.670000017|0_0|-1|0_0|-0.670000017|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -5616,7 +5616,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 1
+	sidx = 2
 	sqor = 0
 	sepI = -1
 	attm = 0
@@ -5953,7 +5953,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0.130526155, 0, -0.991444886)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 0
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -6158,7 +6158,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0.130526155, 0, -0.991444886)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 0
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -7329,7 +7329,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7945,7 +7945,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11836,8 +11836,8 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 100
-	modMass = -0.0399999619
+	modCost = 200
+	modMass = 0
 	modSize = 0,0,0
 	attN = top,ROT-GenericTank-Integral_4286317494_0|0.971984029|0_0|1.60000002|0_0|0.971984029|0_0|1.60000002|0
 	attN = bottom,Null_0_0|-1.46671999|0_0|-1.60000002|0_0|-1.46671999|0_0|-1.60000002|0
@@ -12117,8 +12117,8 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = LR91-AJ-5-Kero
-		configurationDisplay = LR91-AJ-5-Kero
+		configuration = LR91-AJ-7-Kero
+		configurationDisplay = LR91-AJ-7-Kero
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -12215,7 +12215,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = kerolox
+		currentSubtype = hypergolic-aerozine50
 		EVENTS
 		{
 		}
@@ -12247,9 +12247,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		currentFlightData = 7283.9292
+		initialFlightData = 9283.92969
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -13591,8 +13591,8 @@ PART
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
-	modCost = 260
-	modMass = -0.167800069
+	modCost = 500
+	modMass = -0.134239912
 	modSize = 0,0,0
 	link = AM.MLP.TitanIILaunchStand_4286267276
 	attN = top,ROT-GenericTank-Integral_4291777632_0|1.61872005|0_0|1.60000002|0_0|1.61872005|0_0|1.60000002|0
@@ -13889,8 +13889,8 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = LR87-AJ-5-Kero
-		configurationDisplay = LR87-AJ-5-Kero
+		configuration = LR87-AJ-7-Kero
+		configurationDisplay = LR87-AJ-7-Kero
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -13975,7 +13975,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14172,7 +14172,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 0
+	sidx = 1
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -14903,7 +14903,7 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4272007580
 	partName = Part
 	persistentId = 2628189722
-	pos = 1.95171706E-05,19.8132839,-6.81894922
+	pos = 1.95171688E-05,19.8132839,-6.81894922
 	attPos = 0,0,0
 	attPos0 = 9.53673805E-07,19.3199997,-9.53675453E-07
 	rot = -3.42306131E-15,-0.707106948,-6.50623964E-15,-0.707106709
@@ -15354,7 +15354,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4270997812
 	partName = Part
 	persistentId = 3471058423
-	pos = 2.35703574E-05,29.3110561,-4.65516043
+	pos = 2.35703574E-05,29.3110561,-4.65515995
 	attPos = -5.53131104E-05,0.320770264,3.57634667E-06
 	attPos0 = -2.16373229,9.17700195,-4.7683784E-07
 	rot = 6.42377463E-15,0.707106948,9.10872126E-15,0.707106709
@@ -15367,7 +15367,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 2
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -15638,7 +15638,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4269522558
 	partName = Part
 	persistentId = 2408991992
-	pos = 2.38087759E-05,37.6217308,-4.7356596
+	pos = 2.38087759E-05,37.6217308,-4.73565912
 	attPos = -5.57899475E-05,2.1914463,3.33792718E-06
 	attPos0 = -2.08323264,15.6170006,-2.02390751E-15
 	rot = 6.42377463E-15,0.707106948,9.10872126E-15,0.707106709
@@ -15651,7 +15651,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 2
+	sidx = 3
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -15938,288 +15938,12 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4268834174
 	partName = Part
 	persistentId = 1533751992
-	pos = 1.97556601E-05,22.1413326,-4.65516424
+	pos = 1.97556601E-05,22.1413326,-4.65516376
 	attPos = -4.8160553E-05,-0.408950806,-2.3836327E-07
 	attPos0 = -2.16373229,2.73699951,-4.76837897E-07
 	rot = 6.42377463E-15,0.707106948,9.10872126E-15,0.707106709
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -3.14149146E-15,-3.92244067E-37,6.21466221E-16,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 6
-	resPri = 0
-	dstg = 8
-	sidx = 3
-	sqor = 6
-	sepI = 6
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = connect,AM.MLP.LaunchStandServiceTower4_4272007580_0.33273387|0|0_1.61000001|0|0_0.33273387|0|0_1.61000001|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = mountSwitch
-		currentSubtype = Short
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = armSwitch
-		currentSubtype = Red
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = umbSwitch
-		currentSubtype = Gray
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGenericExtra
-		isEnabled = True
-		aniState = LOCKED
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		deployPercent = 100
-		animationIsDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			deployPercent
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleStagedAnimation
-		isEnabled = True
-		hasPlayed = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGenericExtra
-		isEnabled = True
-		aniState = CLAMPED
-		animSwitch = True
-		animTime = 0.540000021
-		animSpeed = 0
-		deployPercent = 46
-		animationIsDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			deployPercent
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTagList
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = AM.MLP.SmallTowerSwingArm_4283263436
-	partName = Part
-	persistentId = 48788878
-	pos = 2.02324954E-05,24.6350021,-4.65521383
-	attPos = -4.76837158E-07,0.474718094,-1.42108547E-14
-	attPos0 = -2.16373372,4.34700012,-2.38351305E-07
-	rot = 0,0.707106829,-4.79294216E-23,0.707106829
-	attRot = 0,0.707106769,0,0.707106769
-	attRot0 = -2.18013596E-15,2.08616228E-07,7.02107558E-15,-1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -16487,13 +16211,289 @@ PART
 }
 PART
 {
+	part = AM.MLP.SmallTowerSwingArm_4283263436
+	partName = Part
+	persistentId = 48788878
+	pos = 2.02324954E-05,24.6350021,-4.65521336
+	attPos = -4.76837158E-07,0.474718094,-1.42108547E-14
+	attPos0 = -2.16373372,4.34700012,-2.38351305E-07
+	rot = 0,0.707106829,-4.79294216E-23,0.707106829
+	attRot = 0,0.707106769,0,0.707106769
+	attRot0 = -2.18013596E-15,2.08616228E-07,7.02107558E-15,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 6
+	resPri = 0
+	dstg = 8
+	sidx = 5
+	sqor = 6
+	sepI = 6
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect,AM.MLP.LaunchStandServiceTower4_4272007580_0.33273387|0|0_1.61000001|0|0_0.33273387|0|0_1.61000001|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = mountSwitch
+		currentSubtype = Short
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = armSwitch
+		currentSubtype = Red
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umbSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGenericExtra
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagedAnimation
+		isEnabled = True
+		hasPlayed = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGenericExtra
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.540000021
+		animSpeed = 0
+		deployPercent = 46
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTagList
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
 	part = AM.MLP.LaunchStandSmallUmbilical_4291271594
 	partName = Part
 	persistentId = 1823002399
-	pos = 2.02324954E-05,28.5995255,-4.73571348
+	pos = 2.02324954E-05,28.5995255,-4.73571301
 	attPos = -4.76837158E-07,1.2192421,-1.42108547E-14
 	attPos0 = -2.08323407,7.56699944,-2.38351333E-07
-	rot = 4.23516474E-22,0.707106829,1.01086176E-21,0.707106829
+	rot = 4.23516474E-22,0.707106829,1.64613647E-21,0.707106829
 	attRot = 0,0.707106709,0,0.707106709
 	attRot0 = -2.1801366E-15,1.78813934E-07,7.02107516E-15,-1
 	mir = 1,1,1
@@ -16503,7 +16503,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 5
+	sidx = 6
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -16790,7 +16790,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4283096816
 	partName = Part
 	persistentId = 147534951
-	pos = 2.02324954E-05,35.1283226,-4.65521383
+	pos = 2.02324954E-05,35.1283226,-4.65521336
 	attPos = -4.76837158E-07,1.3080368,0
 	attPos0 = -2.16373372,14.0070019,-2.3835139E-07
 	rot = 0,0.707106829,-4.79294216E-23,0.707106829
@@ -16803,7 +16803,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 6
+	sidx = 7
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -17066,7 +17066,7 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4268438462
 	partName = Part
 	persistentId = 1018636643
-	pos = 2.35703574E-05,16.2504406,-4.65516424
+	pos = 2.35703574E-05,16.2504406,-4.65516376
 	attPos = -5.22136688E-05,4.9701786,-7.15255794E-07
 	attPos0 = -2.1637311,10.7869987,7.99238808E-14
 	rot = 6.42377293E-15,0.707106948,9.10872296E-15,0.707106709
@@ -17079,7 +17079,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 8
-	sidx = 7
+	sidx = 8
 	sqor = 6
 	sepI = 6
 	attm = 0
@@ -18783,7 +18783,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19218,7 +19218,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19653,7 +19653,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20088,7 +20088,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21985,7 +21985,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22418,7 +22418,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -24524,7 +24524,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 2
-	sidx = 2
+	sidx = 1
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -24787,9 +24787,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1427.53796
-		initialFlightData = 1427.53796
-		missionStartTime = 459764522.01053065
+		currentFlightData = 1513.724
+		initialFlightData = 1513.724
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -24950,7 +24950,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 2
-	sidx = 2
+	sidx = 1
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -25205,9 +25205,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1427.53796
-		initialFlightData = 1427.53796
-		missionStartTime = 459764522.01053065
+		currentFlightData = 1513.724
+		initialFlightData = 1513.724
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25355,10 +25355,10 @@ PART
 	part = ROE-Castor1_4291588950
 	partName = Part
 	persistentId = 4015987929
-	pos = 1.48459363,7.23357773,1.48459995
+	pos = 1.48459363,7.23357773,1.48460007
 	attPos = 0,0,0
 	attPos0 = -0.424538374,1.2106111,-5.96046448E-08
-	rot = -1.67616349E-07,0.382683516,7.10542736E-15,0.923879623
+	rot = -1.67616349E-07,0.382683516,2.13162821E-14,0.923879623
 	attRot = 0,0,0,1
 	attRot0 = -4.53566713E-08,0.707106829,4.53566358E-08,-0.707106829
 	mir = 1,1,1
@@ -25368,7 +25368,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 9
-	sidx = 8
+	sidx = 0
 	sqor = 6
 	sepI = 5
 	attm = 0
@@ -25682,7 +25682,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25845,7 +25845,7 @@ PART
 	part = ROE-Castor1_4291564682
 	partName = Part
 	persistentId = 1290567544
-	pos = 1.48459339,7.23357773,-1.48454034
+	pos = 1.48459339,7.23357773,-1.48454046
 	attPos = 0,0,0
 	attPos0 = -0.424538374,1.2106111,5.96046448E-08
 	rot = -1.18522671E-07,0.923879623,1.18522657E-07,0.382683516
@@ -25858,7 +25858,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 9
-	sidx = 8
+	sidx = 0
 	sqor = 6
 	sepI = 5
 	attm = 0
@@ -26164,7 +26164,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26330,7 +26330,7 @@ PART
 	pos = -1.48454666,7.23357773,-1.48454034
 	attPos = 0,0,0
 	attPos0 = -0.424538314,1.2106111,2.98023224E-08
-	rot = 0,-0.923879623,-1.67616349E-07,0.382683486
+	rot = -7.10542736E-15,-0.923879623,-1.67616363E-07,0.382683486
 	attRot = 0,0,0,1
 	attRot0 = -4.53566713E-08,0.707106829,4.53566287E-08,-0.707106829
 	mir = 1,1,1
@@ -26340,7 +26340,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 9
-	sidx = 8
+	sidx = 0
 	sqor = 6
 	sepI = 5
 	attm = 0
@@ -26646,7 +26646,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26822,7 +26822,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 9
-	sidx = 8
+	sidx = 0
 	sqor = 6
 	sepI = 5
 	attm = 0
@@ -27128,7 +27128,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 459764522.01053065
+		missionStartTime = 470598198.02975368
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
